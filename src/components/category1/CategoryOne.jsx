@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom";
-
 export const CategoryOne = () =>{
     const [myUsers,setMyUsers] = useState(null) ;
     useEffect(() => {
@@ -12,7 +11,6 @@ export const CategoryOne = () =>{
        }, [])    
     return(
         <>
-
         <div className="container">
         <div className="row">
         {

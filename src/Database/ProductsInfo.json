@@ -24,19 +24,11 @@
     "cosmetics": [
         {
             "id": 1,
-            "name": "Lanoro"
+            "name": "cosmetic1"
         },
         {
             "id": 2,
-            "name": "Talicta"
-        },
-        {
-            "id": 3,
-            "name": "Chily"
-        },
-        {
-            "id": 4,
-            "name": "Umo"
+            "name": "cosmetic2"
         }
     ],
     "nutretion": [

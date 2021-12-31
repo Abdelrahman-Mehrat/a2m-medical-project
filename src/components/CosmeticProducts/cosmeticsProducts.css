@@ -1,0 +1,20 @@
+.Cosmatics__Page{
+    background-color: rgb(230, 230, 230);
+}
+.Cosmatics__Page .container{
+    background-color: white;
+}
+.Cosmatics__Page .container .CardWrapper{
+    background-color: #2e622f;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.Cosmatics__Page .container .CardWrapper:hover{
+    background-color: #579758;
+    color: white;
+    cursor: pointer;
+}
+.Cosmatics__Page .container .CardWrapper p{
+    font-size: 1.3rem;
+}

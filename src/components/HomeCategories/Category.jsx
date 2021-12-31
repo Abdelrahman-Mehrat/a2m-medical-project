@@ -1,7 +1,11 @@
+import "./Category.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { CardCategory } from "./CardCategory";
+import supplementImg from "../../assets/image/home/supplement category.png"
+import cosmeticsImg from "../../assets/image/home/cosmetics category.jpg"
+import milkImg from "../../assets/image/home/milk.jpg"
 
+import { CardCategory } from "./CardCategory/CardCategory";
 const Category = () => {
   const [mainCard, setMainCard] = useState([
     {
@@ -9,26 +13,26 @@ const Category = () => {
       name: "supplements",
       describe:"click here to go to supplements products",
       theLink:"SupplementProducts",
-      img:"https://via.placeholder.com/150"
+      img:`${supplementImg}`
     },
     {
       id:2,
       name: "Cosmetics",
       describe:"click here to go to Cosmetics products",
       theLink:"CosmeticsProducts",
-      img:"https://via.placeholder.com/150"
+      img:`${cosmeticsImg}`
     },
     {
       id:3,
       name: "Nutretion",
       describe:"click here to go to Nutretion products",
       theLink:"NutretionProducts",
-      img:"https://via.placeholder.com/150"
+      img:`${milkImg}`
     },
   ]);
 
   return (
-    <div>
+    <div className="home__category py-4">
       <div className="container">
         <h2 className="pb-3">Category</h2>
         <div>

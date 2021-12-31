@@ -1,7 +1,8 @@
 import "./aboutUsMain.css";
 const AboutUsMain = () => {
   return (
-    <div className="container py-3">
+    <section className="Home__AboutUs py-4">
+    <div className="container ">
       <div className="row">
         <div className="col-md-8">
           <div className="p-2">
@@ -22,6 +23,7 @@ const AboutUsMain = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 export default AboutUsMain;

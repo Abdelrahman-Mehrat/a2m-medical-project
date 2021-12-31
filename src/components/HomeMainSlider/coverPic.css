@@ -2,9 +2,18 @@
 }
 
 .contactUs{
-    background-color: #A3DA8D;
+    /* background: rgb(194,231,180);
+    background: linear-gradient(180deg, rgba(194,231,180,1) 0%, rgba(127,218,125,1) 47%, rgba(84,184,104,1) 100%);   margin-top: -35px; */
 }
 .contactUs__data{
-    background-color: #FFF1BD;
-    border-radius: 10px;
+    color: white;
+    background-color: #508b5c;
+    border-radius: 2rem 2rem 2rem 0px;
+}
+.contactUs__data p{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.contactUs__data .iconn{
+    font-size: 2rem;
 }

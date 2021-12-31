@@ -1,0 +1,5 @@
+.Home__AboutUs{
+    background: rgb(194,231,180);
+    background: linear-gradient(180deg, rgb(80, 233, 34) 0%, rgb(100, 200, 98) 20%, rgba(84,184,104,1) 100%);
+    color: white;
+}

@@ -1,15 +1,15 @@
 import { useEffect,useState } from "react";
 import { useLocation } from 'react-router-dom';
 export const SingleCard =(props)=>{
-    const [singleProduct, setSingleProduct] = useState();
-    //useEffect function
-    const location = useLocation()
-    useEffect(() => {
-        // fetchProduct();
-        fetch(`https://fakestoreapi.com/products/${location.pathname}`)
-                .then(res => res.json())
-                .then(json=>setSingleProduct(json))       
-    }, [])
+    // const [singleProduct, setSingleProduct] = useState();
+    // //useEffect function
+    // const location = useLocation()
+    // useEffect(() => {
+    //     // fetchProduct();
+    //     fetch(`https://fakestoreapi.com/products/${location.pathname}`)
+    //             .then(res => res.json())
+    //             .then(json=>setSingleProduct(json))       
+    // }, [])
    console.log(props);
     return(
      

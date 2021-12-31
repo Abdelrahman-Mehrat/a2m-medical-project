@@ -1,17 +1,52 @@
 {
-    "supplement":[{
-        "id":1,
-        "name":"Lanoro"
+    "supplement": [
+        {
+            "id": 1,
+            "name": "Lanoro",
+            "image": "./assets/image/supplement/card-01.jpg"
         },
-        {"id":2,
-        "name":"Talicta"
+        {
+            "id": 2,
+            "name": "Talicta",
+            "image": "./assets/image/supplement/card-02.jpg"
         },
-        {"id":3,
-        "name":"Chily"},
-        {"id":4,
-        "name":"Umo"
-    }
+        {
+            "id": 3,
+            "name": "Chily",
+            "image": "./assets/image/supplement/card-03.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Umo",
+            "image": "./assets/image/supplement/card-04.jpg"
+        }
     ],
-    "cosmetics":[{"id":1},{"id":2},{"id":3},{"id":4}],
-    "nutretion":[{"id":1},{"id":2},{"id":3},{"id":4}]
+    "cosmetics": [
+        {
+            "id": 1
+        },
+        {
+            "id": 2
+        },
+        {
+            "id": 3
+        },
+        {
+            "id": 4
+        }
+    ],
+    "nutretion": [
+        {
+            "id": 1
+        },
+        {
+            "id": 2
+        },
+        {
+            "id": 3
+        },
+        {
+            "id": 4
+        }
+    ]
 }

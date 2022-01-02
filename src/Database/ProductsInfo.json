@@ -24,25 +24,25 @@
     "cosmetics": [
         {
             "id": 1,
-            "name": "cosmetic1"
+            "name": "cosmetic1",
+            "image": "./assets/image/cosmetics/siliseen-gel-card.jpg"
         },
         {
             "id": 2,
-            "name": "cosmetic2"
+            "name": "cosmetic2",
+            "image": "./assets/image/cosmetics/vercoza-gel-card.jpg"
         }
     ],
     "nutretion": [
         {
-            "id": 1
+            "id": 1,
+            "name": "nutretion1",
+            "image": "./assets/image/nutretion/nutri-baby-follow.jpg"
         },
         {
-            "id": 2
-        },
-        {
-            "id": 3
-        },
-        {
-            "id": 4
+            "id": 2,
+            "name": "nutretion2",
+            "image": "./assets/image/nutretion/nutri-baby-infant.jpg"
         }
     ]
 }

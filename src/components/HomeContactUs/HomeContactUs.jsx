@@ -1,24 +1,26 @@
+import googleMapPic from "./googlemap.jpg"
 import "./HomeContactUs.css";
 export const HomeContactUs = () => {
     return (
         <section className="home__contactUs py-4">
             <div className="container">
                 <h2 className="pb-3">Contact us</h2>
-                <div className="home__contactUs__body">
+                <div className="home__contactUs__body row">
+                    {/* change icons from font awesome */}
+                    <div className="col-md-8">
                     <div className="phoneNumber">
-                        <div>
-                            <span>icon</span>
-                            <p>+20-01100810690</p>
-                        </div>
-                        <div>
-                            <span>icon</span>
-                            <p>+20-01100810690</p>
-                        </div>
-                        <div className="adress">
-                            <span>icon</span>
-                            <p>22 m Hadayek al-hram Menkaure Gate Giza</p>
-                        </div>
+                        <p><span>icon</span> +20-01100810690</p>
+                        <p><span>icon</span> +20-01100810690</p>
                     </div>
+                    <div className="adress">
+                        <p><span>icon</span> 22 m Hadayek al-hram Menkaure Gate Giza</p>
+                    </div>
+                        <div className="location">
+                            <p>location https://goo.gl/maps/Ny6ZJbFq9TSdemNPA</p>
+                        </div>
+                        <div className="email">email :a2mmedical20@outlook.com</div>
+                    </div>
+                        <div className="col-md-4"><img className="w-100 " src={googleMapPic} alt="" /></div>    
                 </div>
             </div>
         </section>

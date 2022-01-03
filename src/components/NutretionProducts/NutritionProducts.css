@@ -1,0 +1,13 @@
+.nutrition__page {
+    background-color: rgb(172, 172, 172);
+    min-height: 100vh;
+}
+.nutrition__page .CardWrapper{
+    box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+-webkit-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+-moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+}
+.nutrition__page .container{
+    background-color: white;
+    min-height: 100vh;
+}

@@ -2,46 +2,46 @@
     "supplement": [
         {
             "id": 1,
-            "name": "Lanoro",
-            "image": "./assets/image/supplement/card-01.jpg"
+            "name": "Talicta",
+            "image": "./assets/image/supplement/talica-english.jpg"
         },
         {
             "id": 2,
-            "name": "Talicta",
-            "image": "./assets/image/supplement/card-02.jpg"
+            "name": "Lanoro",
+            "image": "./assets/image/supplement/lanoro-english.jpg"
         },
         {
             "id": 3,
-            "name": "Chily",
-            "image": "./assets/image/supplement/card-03.jpg"
+            "name": "Umo",
+            "image": "./assets/image/supplement/umo-english.jpg"
         },
         {
             "id": 4,
-            "name": "Umo",
-            "image": "./assets/image/supplement/card-04.jpg"
+            "name": "Chily",
+            "image": "./assets/image/supplement/chilly-english.jpg"
         }
     ],
     "cosmetics": [
         {
             "id": 1,
-            "name": "cosmetic1",
+            "name": "siliseen-gel",
             "image": "./assets/image/cosmetics/siliseen-gel-card.jpg"
         },
         {
             "id": 2,
-            "name": "cosmetic2",
+            "name": "vercoza-gel",
             "image": "./assets/image/cosmetics/vercoza-gel-card.jpg"
         }
     ],
     "nutretion": [
         {
             "id": 1,
-            "name": "nutretion1",
+            "name": "nutri-baby-follow",
             "image": "./assets/image/nutretion/nutri-baby-follow.jpg"
         },
         {
             "id": 2,
-            "name": "nutretion2",
+            "name": "nutri-baby-infant",
             "image": "./assets/image/nutretion/nutri-baby-infant.jpg"
         }
     ]

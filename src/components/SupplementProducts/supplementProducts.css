@@ -1,6 +1,14 @@
 .supplement__page{
-    background-color: rgb(224, 109, 109);
+    background-color: rgb(243, 182, 126);
+    min-height: 100vh;
 }
 .supplement__page .container{
     background-color: white;
+    min-height: 100vh;
+}
+.supplement__page .CardWrapper{
+    box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+-webkit-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+-moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+background-color: rgb(209, 209, 209);
 }

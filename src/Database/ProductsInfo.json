@@ -31,6 +31,31 @@
             "id": 2,
             "name": "vercoza-gel",
             "image": "./assets/image/cosmetics/vercoza-gel-card.jpg"
+        },
+        {
+            "id": 3,
+            "name": "evyone-rose",
+            "image": "./assets/image/cosmetics/evyone-rose-card.jpg"
+        },
+        {
+            "id": 4,
+            "name": "evyone-lavander",
+            "image": "./assets/image/cosmetics/evyone-lavander-card.jpg"
+        },
+        {
+            "id": 5,
+            "name": "evyone-strawberry",
+            "image": "./assets/image/cosmetics/evyone-straw-card.jpg"
+        },
+        {
+            "id": 6,
+            "name": "evyone-vanilla",
+            "image": "./assets/image/cosmetics/evyone-vanilla-card.jpg"
+        },
+        {
+            "id": 7,
+            "name": "winnyfit",
+            "image": "./assets/image/cosmetics/winnyfit-card.jpg"
         }
     ],
     "nutretion": [

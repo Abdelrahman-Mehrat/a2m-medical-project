@@ -2,10 +2,9 @@
     background-color: rgb(172, 172, 172);
     min-height: 100vh;
 }
-.nutrition__page .CardWrapper{
-    box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
--webkit-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
--moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+.nutrition__page .CardWrapper:hover{
+background-color: rgb(71, 157, 197);
+color: white;
 }
 .nutrition__page .container{
     background-color: white;

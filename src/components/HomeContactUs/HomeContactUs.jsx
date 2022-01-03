@@ -2,9 +2,9 @@ import googleMapPic from "./googlemap.jpg"
 import "./HomeContactUs.css";
 export const HomeContactUs = () => {
     return (
-        <section className="home__contactUs py-4">
+        <section className="home__contactUs head__animation py-4">
             <div className="container">
-                <h2 className="pb-3">Contact us</h2>
+                <h2 className="pb-3 section__header">Contact us</h2>
                 <div className="home__contactUs__body row">
                     {/* change icons from font awesome */}
                     <div className="col-md-8">

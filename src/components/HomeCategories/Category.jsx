@@ -32,9 +32,9 @@ const Category = () => {
   ]);
 
   return (
-    <div className="home__category py-4">
+    <div className="home__category head__animation py-4">
       <div className="container">
-        <h2 className="pb-3">Category</h2>
+        <h2 className="pb-3 section__header">Category</h2>
         <div>
           <div className="row">
             {mainCard.map((singleCard) => {

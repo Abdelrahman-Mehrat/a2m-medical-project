@@ -2,12 +2,12 @@ import "./aboutUsMain.css";
 import logoPic from "./logoPic.jpg"
 const AboutUsMain = () => {
   return (
-    <section className="Home__AboutUs py-4">
+    <section className="Home__AboutUs head__animation py-4">
     <div className="container ">
       <div className="row">
         <div className="col-md-8">
           <div className="p-2">
-            <h2>About us</h2>
+            <h2 className="section__header">About us</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
               molestias eligendi minima velit. Facere, pariatur debitis

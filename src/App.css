@@ -2,9 +2,6 @@
     /* display: flex;
     justify-content: center; */
     display: none;
-<<<<<<< HEAD
-}
-=======
 } 
 .head__animation:hover .section__header::after{
     width: 20%;
@@ -19,4 +16,3 @@
   background-color: red;
   transition: width 0.5s
   }
->>>>>>> d9260d5f5fe2d32b0c67c16127005480bfd0877a

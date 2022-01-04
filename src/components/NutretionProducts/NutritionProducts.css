@@ -1,0 +1,12 @@
+.nutrition__page {
+    background-color: rgb(172, 172, 172);
+    min-height: 100vh;
+}
+.nutrition__page .CardWrapper:hover{
+background-color: rgb(71, 157, 197);
+color: white;
+}
+.nutrition__page .container{
+    background-color: white;
+    min-height: 100vh;
+}

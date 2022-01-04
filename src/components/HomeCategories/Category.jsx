@@ -11,20 +11,20 @@ const Category = () => {
     {
       id:1,
       name: "supplements",
-      describe:"click here to go to supplements products",
+      describe:"click here to go to supplement products",
       theLink:"SupplementProducts",
       img:`${supplementImg}`
     },
     {
       id:2,
       name: "Cosmetics",
-      describe:"click here to go to Cosmetics products",
+      describe:"click here to go to Cosmitics products",
       theLink:"CosmeticsProducts",
       img:`${cosmeticsImg}`
     },
     {
       id:3,
-      name: "Nutretion",
+      name: "Nutrition",
       describe:"click here to go to Nutretion products",
       theLink:"NutretionProducts",
       img:`${milkImg}`
@@ -32,15 +32,15 @@ const Category = () => {
   ]);
 
   return (
-    <div className="home__category py-4">
+    <div className="home__category head__animation py-4">
       <div className="container">
-        <h2 className="pb-3">Category</h2>
+        <h2 className="pb-3 section__header">Category</h2>
         <div>
           <div className="row">
             {mainCard.map((singleCard) => {
               return (
-                <div className="col-sm-4">
-                <div className="px-5">
+                <div className="col-sm-6 col-md-4">
+                <div className="px-3">
                   <Link to={`${singleCard.theLink}`}>
                     <CardCategory  name={singleCard.name} describe={singleCard.describe} img={singleCard.img} />
                   </Link>

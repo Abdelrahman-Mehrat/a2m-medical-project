@@ -5,15 +5,16 @@
     background-color: white;
 }
 .Cosmatics__Page .container .CardWrapper{
-    background-color: #2e622f;
-    color: white;
+    background-color: #d3d3d3;
     border-radius: 5px;
     transition: 1s;
+    box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+-webkit-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+-moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
 }
 .Cosmatics__Page .container .CardWrapper:hover{
-    background-color: #579758;
+    background-color: #777777;
     color: white;
-    cursor: pointer;
 }
 .Cosmatics__Page .container .CardWrapper p{
     font-size: 1.3rem;

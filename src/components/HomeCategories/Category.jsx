@@ -1,9 +1,9 @@
 import "./Category.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import supplementImg from "../../assets/image/home/supplement category.png"
-import cosmeticsImg from "../../assets/image/home/cosmetics category.jpg"
-import milkImg from "../../assets/image/home/milk.jpg"
+import supplementImg from "../../assets/image/home/supplementcat.jpg"
+import cosmeticsImg from "../../assets/image/home/cosmeticsCat.jpg"
+import milkImg from "../../assets/image/home/nutriCat.jpg"
 
 import { CardCategory } from "./CardCategory/CardCategory";
 const Category = () => {

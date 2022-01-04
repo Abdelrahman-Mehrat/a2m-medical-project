@@ -2,7 +2,8 @@
     /* display: flex;
     justify-content: center; */
     display: none;
-} 
+}
+
 .head__animation:hover .section__header::after{
     width: 20%;
     
@@ -16,3 +17,4 @@
   background-color: red;
   transition: width 0.5s
   }
+ 

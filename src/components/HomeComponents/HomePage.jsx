@@ -9,7 +9,7 @@ const HomePage = ()=>{
         <AboutUsMain/>
         <Category/>
         </>
-        
+
     )
 }
 export default HomePage;

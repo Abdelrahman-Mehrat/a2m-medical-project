@@ -9,6 +9,7 @@ import { CosmeticsProducts } from "./components/CosmeticProducts/CosmeticsProduc
 import { SingleCard } from "./components/category1/single/SignleCard";
 import { NutretionProducts } from "./components/NutretionProducts/NutretionProducts";
 import { SupplementProducts } from "./components/SupplementProducts/SupplementProducts";
+import { Footer } from "./shared/Footer/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -21,7 +22,9 @@ function App() {
         <Route path='/:id' element={<SingleCard />} />
         <Route path='/NutretionProducts' element={<NutretionProducts />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
+
   );
 }
 

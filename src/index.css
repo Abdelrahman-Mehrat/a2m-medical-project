@@ -4,7 +4,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.7;
-    color: #8c92a0;
+    /* color: #8c92a0; */
     font-weight: 300;
     font-size: 16px;
 }

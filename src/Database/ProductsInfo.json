@@ -19,6 +19,11 @@
             "id": 4,
             "name": "Chily",
             "image": "./assets/image/supplement/chilly-english.jpg"
+        },
+        {
+            "id": 5,
+            "name": "mernovital",
+            "image": "./assets/image/supplement/mernovital.jpg"
         }
     ],
     "cosmetics": [

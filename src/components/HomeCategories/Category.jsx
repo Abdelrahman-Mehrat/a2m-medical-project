@@ -10,22 +10,22 @@ const Category = () => {
   const [mainCard, setMainCard] = useState([
     {
       id:1,
-      name: "supplements",
-      describe:"click here to go to supplement products",
+      name: "supplement products",
+      // describe:"click here to go to supplement products",
       theLink:"SupplementProducts",
       img:`${supplementImg}`
     },
     {
       id:2,
-      name: "Cosmetics",
-      describe:"click here to go to Cosmitics products",
+      name: "Cosmetic products",
+      // describe:"click here to go to Cosmitics products",
       theLink:"CosmeticsProducts",
       img:`${cosmeticsImg}`
     },
     {
       id:3,
-      name: "Nutrition",
-      describe:"click here to go to Nutretion products",
+      name: "Nutrition products",
+      // describe:"click here to go to Nutrition products",
       theLink:"NutretionProducts",
       img:`${milkImg}`
     },
@@ -40,7 +40,7 @@ const Category = () => {
             {mainCard.map((singleCard) => {
               return (
                 <div className="col-sm-6 col-md-4">
-                <div className="px-3">
+                <div className="p-3 ">
                   <Link to={`${singleCard.theLink}`}>
                     <CardCategory  name={singleCard.name} describe={singleCard.describe} img={singleCard.img} />
                   </Link>

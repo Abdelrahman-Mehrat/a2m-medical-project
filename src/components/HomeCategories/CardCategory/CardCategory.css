@@ -4,4 +4,11 @@
 -webkit-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
 -moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
 color: black;
+overflow: hidden;
+}
+.home__categoryCard:hover .cardImg{
+    transform: scale(1.1);
+}
+.home__categoryCard .cardImg{
+    transition: 1s;
 }

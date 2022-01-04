@@ -4,9 +4,9 @@ export const CardCategory = (props)=>{
     console.log(props);
     return(
 <Card className="home__categoryCard" >
-  <Card.Img variant="top" src={props.img} />
+  <Card.Img className="cardImg" variant="top" src={props.img} />
   <Card.Body>
-    <Card.Title>{props.name}</Card.Title>
+    <Card.Title className="text-center">{props.name}</Card.Title>
     <Card.Text>
       {props.describe}
     </Card.Text>

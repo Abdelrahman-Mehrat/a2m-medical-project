@@ -12,6 +12,9 @@
 -moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
 background-color: rgb(209, 209, 209);
 transition: 1s;
+color: black;
+font-size: 1.3rem;
+font-weight: bold;
 }
 .supplement__page .container .CardWrapper:hover{
     background-color: #777777;

@@ -7,13 +7,21 @@
 }
 .contactUs__data{
     color: white;
-    background-color: #508b5c;
+    background-color: #c7f58b;
     border-radius: 2rem 2rem 2rem 0px;
+
 }
+.contactUs__data:hover i{
+transform: scale(1.2) rotate(20deg);
+color: rgb(255, 255, 255);
+} 
 .contactUs__data p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    color: rgb(133, 133, 133);
     text-transform: uppercase;
 }
-.contactUs__data .iconn{
-    font-size: 2rem;
+.contactUs__data i{
+    color: rgb(133, 133, 133);
+    transition: 1s;
+
 }

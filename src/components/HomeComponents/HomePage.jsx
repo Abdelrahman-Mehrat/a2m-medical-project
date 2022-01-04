@@ -1,7 +1,7 @@
 import Category from "../HomeCategories/Category";
 import AboutUsMain from "../HomeAboutUs/AboutUsMain";
 import { CoverPic } from "../HomeMainSlider/CoverPic";
-import { HomeContactUs } from "../HomeContactUs/HomeContactUs";
+import { Footer } from "../../shared/Footer/Footer";
 // import { useEffect } from "react";
 // const 
 const HomePage = ()=>{
@@ -13,7 +13,7 @@ const HomePage = ()=>{
         <CoverPic/>
         <AboutUsMain/>
         <Category/>
-        <HomeContactUs/>
+        <Footer />
         </>
         
     )

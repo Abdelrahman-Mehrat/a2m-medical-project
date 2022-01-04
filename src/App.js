@@ -3,16 +3,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomeComponents/HomePage";
 import AboutUs from "./components/AboutUsPage/AboutUs";
-import { AmNav } from "./shared/NavbarFixed/AmNav";
+import { NavBar } from "./shared/NavBar/NavBar";
 // import { CategoryOne } from './components/category1/CategoryOne';
 import { CosmeticsProducts } from "./components/CosmeticProducts/CosmeticsProducts";
 import { SingleCard } from "./components/category1/single/SignleCard";
 import { NutretionProducts } from "./components/NutretionProducts/NutretionProducts";
 import { SupplementProducts } from "./components/SupplementProducts/SupplementProducts";
+import { Footer } from "./shared/Footer/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <AmNav />
+      <NavBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutUs />} />
@@ -21,6 +22,7 @@ function App() {
         <Route path='/:id' element={<SingleCard />} />
         <Route path='/NutretionProducts' element={<NutretionProducts />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,21 +1,15 @@
 import Category from "../HomeCategories/Category";
 import AboutUsMain from "../HomeAboutUs/AboutUsMain";
 import { CoverPic } from "../HomeMainSlider/CoverPic";
-import { Footer } from "../../shared/Footer/Footer";
-// import { useEffect } from "react";
-// const 
-const HomePage = ()=>{
-    // useEffect(()=>{
-    //     console.log(Data);
-    // })
-    return(
+const HomePage = () => {
+
+    return (
         <>
-        <CoverPic/>
-        <AboutUsMain/>
-        <Category/>
-        <Footer />
+            <CoverPic />
+            <AboutUsMain />
+            <Category />
         </>
-        
+
     )
 }
 export default HomePage;

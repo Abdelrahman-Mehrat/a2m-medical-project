@@ -7,6 +7,7 @@ body {
     /* color: #8c92a0; */
     font-weight: 300;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 code {
@@ -18,4 +19,7 @@ a {
     -o-transition: .3s all ease;
     transition: .3s all ease;
     text-decoration: none;
+}
+.slider-wrapper.axis-horizontal {
+    margin-top: 71px;
 }

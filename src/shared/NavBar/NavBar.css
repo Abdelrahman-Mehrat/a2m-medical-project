@@ -2,7 +2,10 @@
 .is-active {
   color: #ff5800 !important;
 }
-
+.logoImg{
+  height: 50px;
+  width: 70px;
+}
 .navBar .col-md-3 {
   z-index: 7;
 }
@@ -31,7 +34,7 @@ li {
   position: relative;
   display: block;
   color: #545050;
-  margin: 1rem 17px;
+  margin: 0.5rem 17px;
   text-decoration: none;
   cursor: pointer;
 }

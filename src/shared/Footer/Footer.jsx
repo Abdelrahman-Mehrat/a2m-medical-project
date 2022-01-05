@@ -47,13 +47,10 @@ export const Footer = () => {
               <div class="block-5 mb-5">
                 <h3 class="footer-heading mb-4">Contact Info</h3>
                 <ul class="list-unstyled">
-                  <li class="address"><i class="fas fa-map-marker-alt"></i>22 m Hadayek al-hram Menkaure Gate Giza</li>
+                  <li class="address"><i class="fas fa-map-marker-alt"></i><a href="https://goo.gl/maps/tSGQYZRP5PvbSNNu7">22 m Hadayek al-hram Menkaure Gate Giza</a></li>
                   <li class="phone"><i class="fas fa-phone-alt"></i><a href="tel://23923929210">+20-01100810690</a></li>
                   <li class="phone"><i class="fas fa-phone-alt"></i><a href="tel://23923929210">+20-01119998720</a></li>
                   <li class="email"><i class="fas fa-envelope"></i><a href="mailto: a2mmedical20@outlook.com">a2mmedical20@outlook.com</a></li>
-                  
-                  <li  class="email"><i class="fas fa-location"></i><a href="https://goo.gl/maps/tSGQYZRP5PvbSNNu7">Location</a></li>
-
                 </ul>
               </div>
             </div>

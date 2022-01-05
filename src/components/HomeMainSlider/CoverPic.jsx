@@ -1,9 +1,12 @@
 import "./coverPic.css";
-import imgOne from "../../assets/image/home/1 english.jpg";
-import imgTwo from "../../assets/image/home/2 english.jpg";
+import imgOne from "../../assets/image/home/cosmetics-cover.jpg";
+import imgTwo from "../../assets/image/home/1 english.jpg";
 import imgThree from "../../assets/image/home/3.jpg";
+import imgFour from "../../assets/image/home/2 english.jpg";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
 //   faAddressCard,
@@ -23,6 +26,9 @@ export const CoverPic = () => {
           </div>
           <div>
             <img src={`${imgThree}`} />
+          </div>
+          <div>
+            <img src={`${imgFour}`} />
           </div>
         </Carousel>
       </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
+import logoImg from "./logoPic.jpg";
 // import logo from '../../img/logo.png';
 
 import './NavBar.css'
@@ -38,12 +39,12 @@ export const NavBar = () => {
     return (
         <header className="header__middle">
             <div className="container">
-                <div className="row">
+                <div className="row d-flex align-items-center">
 
                     {/* Add Logo  */}
                     <div className="header__middle__logo">
                         <NavLink exact activeClassName='is-active' to="/">
-                        LOGO
+                        <img className='logoImg'  src={`${logoImg}`} alt="" />
                         </NavLink>
                     </div>
 
@@ -62,13 +63,15 @@ export const NavBar = () => {
                                     <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink>
                                 </li>
                                 <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li>
-                                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Shop <FiChevronDown /> </Link>
+                                <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Category <FiChevronDown /> </Link>
                                     <ul className={boxClassSubMenu.join(' ')} >
-                                        <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/Online`}> Online Shop </NavLink> </li>
-                                        <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Offline Shop </NavLink> </li>
+                                        <li> <NavLink onClick={toggleClass} activeClassName='is-active' to={`/SupplementProducts`}> Supplements </NavLink> </li>
+                                        <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/CosmeticsProducts`}> Cosmetics </NavLink> </li>
+                                        <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/NutretionProducts`}> Nutrition </NavLink> </li>
+
                                     </ul>
                                 </li>
-                                <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
+                                <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={``}> Contact </NavLink> </li>
 
                             </ul>
                         </nav>

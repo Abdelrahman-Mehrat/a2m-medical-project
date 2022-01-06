@@ -6,7 +6,7 @@ export const CardCategory = (props)=>{
 <Card className="home__categoryCard" >
   <Card.Img className="cardImg" variant="top" src={props.img} />
   <Card.Body>
-    <Card.Title className="text-center">{props.name}</Card.Title>
+    <Card.Title className="text-center title">{props.name}</Card.Title>
     <Card.Text>
       {props.describe}
     </Card.Text>

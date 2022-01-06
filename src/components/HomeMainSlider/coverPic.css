@@ -7,21 +7,22 @@
 }
 .contactUs__data{
     color: white;
-    background-color: #c7f58b;
+    background-color: #07a8ff;
     border-radius: 2rem 2rem 2rem 0px;
+    cursor: pointer;
 
 }
 .contactUs__data:hover i{
 transform: scale(1.2) rotate(20deg);
-color: rgb(255, 255, 255);
+
 } 
 .contactUs__data p{
     font-size: 1.2rem;
-    color: rgb(133, 133, 133);
+    font-weight: bold;
     text-transform: uppercase;
 }
 .contactUs__data i{
-    color: rgb(133, 133, 133);
+
     transition: 1s;
 
 }

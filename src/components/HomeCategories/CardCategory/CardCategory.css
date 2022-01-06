@@ -12,3 +12,6 @@ overflow: hidden;
 .home__categoryCard .cardImg{
     transition: 1s;
 }
+.title {
+    color: #07a8ff;
+}

@@ -5,6 +5,8 @@
 .logoImg{
   height: 50px;
   width: 70px;
+  border: 2px solid #07a8ff;
+  border-radius: 10px;
 }
 .navBar .col-md-3 {
   z-index: 7;

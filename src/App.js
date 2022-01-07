@@ -15,12 +15,14 @@ import { NutretionProducts } from "./components/NutretionProducts/NutretionProdu
 import { SupplementProducts } from "./components/SupplementProducts/SupplementProducts";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import { Footer } from "./shared/Footer/Footer";
+import NotFound from "./components/AboutUsPage/NotFound/NotFound";
 function App() {
   return (
     <BrowserRouter>
-      {/* <NavBar /> */}
+      <NavBar />
       <ToastContainer />
       <Routes>
+        <Route path='*' element={<NotFound />} />
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutUs />} />
         <Route path='/contactus' element={<ContactUs />} />
@@ -29,6 +31,7 @@ function App() {
         <Route path='/:id' element={<SingleCard />} />
         <Route path='/NutretionProducts' element={<NutretionProducts />} />
         <Route path='/:category/:name/:id' element={<ProductDetails />} />
+        <Route path='/NutretionProducts' element={<NutretionProducts />} />
       </Routes>
       <Footer />
     </BrowserRouter>

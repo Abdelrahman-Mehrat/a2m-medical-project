@@ -10,6 +10,7 @@ function ContactUs() {
     user__firstName: "",
     user__lastName: "",
     user__email: "",
+    user__phoneNumber: "",
     user__messageSubject: "",
     user__message: "",
   });
@@ -17,6 +18,10 @@ function ContactUs() {
   const schema = Joi.object({
     user__firstName: Joi.string().min(3).max(30).required(),
     user__lastName: Joi.string().min(3).max(30).required(),
+    user__phoneNumber: Joi.string()
+      .length(11)
+      .pattern(/^[0-9]+$/, "phone number only")
+      .required(),
     user__email: Joi.string().email({
       minDomainSegments: 2,
       tlds: { allow: ["com", "net"] },
@@ -28,6 +33,7 @@ function ContactUs() {
     e.preventDefault();
     let errors = handleValidate();
     if (errors) return;
+    formValues.user__phoneNumber = 2 + formValues.user__phoneNumber;
     emailjs
       .send(
         "service_b8u8eqa",
@@ -41,6 +47,7 @@ function ContactUs() {
             user__firstName: "",
             user__lastName: "",
             user__email: "",
+            user__phoneNumber: "",
             user__messageSubject: "",
             user__message: "",
           });
@@ -147,6 +154,28 @@ function ContactUs() {
                 <div className='text-danger'>
                   <span className='text-capitalize'>email </span>
                   {handleErrorMessage(formErrors?.user__email)}
+                </div>
+              )}
+            </div>
+            <div className='mb-3 col-8'>
+              <label
+                htmlFor='phone__number'
+                className='form-label text-capitalize'>
+                phone number
+                <span className='ms-1 text-danger'>*</span>
+              </label>
+              <input
+                type='text'
+                name='user__phoneNumber'
+                className='form-control'
+                id='phone__number'
+                onChange={handleChange}
+                value={formValues.user__phoneNumber}
+              />
+              {formErrors?.user__phoneNumber && (
+                <div className='text-danger'>
+                  <span className='text-capitalize'>phone number </span>
+                  {handleErrorMessage(formErrors?.user__phoneNumber)}
                 </div>
               )}
             </div>

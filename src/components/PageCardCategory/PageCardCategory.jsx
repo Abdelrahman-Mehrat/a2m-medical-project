@@ -1,8 +1,16 @@
+import { useNavigate, useLocation } from "react-router-dom";
+
 export const PageCardCategory = ({ i }) => {
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
+
+  const handleRedirect = () => {
+    navigate(`${pathname}/${i.name}/${i.id}`);
+  };
   return (
     <>
-      <div className=' col-md-3  p-3'>
-        <div className='CardWrapper  p-2'>
+      <div className=' col-md-3 p-3'>
+        <div className='CardWrapper  p-2' onClick={() => handleRedirect()}>
           <img className='w-100' src={i?.image} alt='' />
           <p className='pt-2 text-center'>{i?.name}</p>
         </div>

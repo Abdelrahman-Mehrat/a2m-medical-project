@@ -1,0 +1,14 @@
+.contactus {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.contactus fieldset {
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  padding: 0 0.75em;
+}
+.contactus legend {
+  float: none;
+  width: auto;
+  padding: 0 2px;
+}

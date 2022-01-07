@@ -13,9 +13,9 @@ export const SupplementProducts = () => {
         <div className='container'>
           <h2 className='text-center pt-4 pb-3'>Supplement Products</h2>
           <div className='row'>
-            {supplementData?.map((i) => {
-              return <PageCardCategory i={i} />;
-            })}
+            {supplementData?.map((i) => (
+              <PageCardCategory i={i} key={i.id} />
+            ))}
           </div>
         </div>
       </section>

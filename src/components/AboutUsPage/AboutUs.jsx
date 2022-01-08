@@ -178,7 +178,6 @@ const AboutUs = () => {
               <div class="block-38">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_3.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">3-Innovation</h3>
                   </div>
                   <div class="block-38-body">
@@ -192,7 +191,6 @@ const AboutUs = () => {
               <div class="block-38">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_4.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">4-Passion for Excellence</h3>
                   </div>
                   <div class="block-38-body">
@@ -207,7 +205,6 @@ const AboutUs = () => {
               <div class="block-38 ">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_4.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">5-Achievement
                     </h3>
                   </div>
@@ -222,7 +219,6 @@ const AboutUs = () => {
               <div class="block-38">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_4.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">6-Quality
                     </h3>
                   </div>
@@ -237,7 +233,6 @@ const AboutUs = () => {
               <div class="block-38">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_4.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">7-Fairness & honesty
                     </h3>
                   </div>
@@ -252,7 +247,6 @@ const AboutUs = () => {
               <div class="block-38">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_4.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">8-Motivation & Commitment</h3>
                   </div>
                   <div class="block-38-body">
@@ -266,7 +260,6 @@ const AboutUs = () => {
               <div class="block-38 ">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_4.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">9-Personal Growth</h3>
                   </div>
                   <div class="block-38-body">
@@ -280,7 +273,6 @@ const AboutUs = () => {
               <div class="block-38">
                 <div class="block-38-img">
                   <div class="block-38-header">
-                    {/* <img src="images/person_4.jpg" alt="Image placeholder" class="mb-4"> */}
                     <h3 class="block-38-heading h4">10-Family & Loyalty</h3>
                   </div>
                   <div class="block-38-body">
@@ -294,7 +286,6 @@ const AboutUs = () => {
         </div>
       </div>
     </>
-
   )
 }
 export default AboutUs;

@@ -1,10 +1,14 @@
 .supplement__page{
-    background-color: rgb(243, 182, 126);
+    background-color: #eee;
     min-height: 100vh;
 }
 .supplement__page .container{
     background-color: white;
     min-height: 100vh;
+    margin-top: 100px;
+}
+.supplement__page .container h2 {
+    color: #07a8ff;
 }
 .CardWrapper{
     box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);

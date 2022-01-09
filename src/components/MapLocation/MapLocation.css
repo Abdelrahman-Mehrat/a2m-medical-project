@@ -1,0 +1,10 @@
+.company__location {
+  padding: 70px 0;
+}
+.company__locationImage {
+  background-image: url("../../assets/image/home/location.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 350px;
+}

@@ -29,8 +29,8 @@ function ProductDetails() {
 
   return (
     <section className='product__details mt-5'>
-      {sliderArray && <Carousel slides={sliderArray} autoplay={false} />}
-      {productDetails && (
+      {sliderArray && <Carousel className="product__slider" slides={sliderArray} autoplay={false} />}
+      {/* {productDetails && (
         <div className='container'>
           <div className='row'>
             <figure className='col-lg-5'>
@@ -41,7 +41,7 @@ function ProductDetails() {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 }

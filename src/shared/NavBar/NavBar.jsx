@@ -39,7 +39,7 @@ export const NavBar = () => {
         <div className='row d-flex align-items-center'>
           {/* Add Logo  */}
           <div className='header__middle__logo'>
-            <NavLink exact activeClassName='is-active' to='/'>
+            <NavLink   to='/'>
               <img className='logoImg' src={`${logoImg}`} alt='' />
             </NavLink>
           </div>
@@ -72,8 +72,8 @@ export const NavBar = () => {
               <ul className={boxClass.join(" ")}>
                 <li className='menu-item'>
                   <NavLink
-                    exact
-                    activeClassName='is-active'
+                    exact="true"
+                    activeclassname='is-active'
                     onClick={toggleClass}
                     to={`/`}>
                     {" "}
@@ -83,7 +83,7 @@ export const NavBar = () => {
                 <li className='menu-item '>
                   <NavLink
                     onClick={toggleClass}
-                    activeClassName='is-active'
+                    activeclassname='is-active'
                     to={`/About`}>
                     {" "}
                     About{" "}
@@ -102,7 +102,7 @@ export const NavBar = () => {
                       {" "}
                       <NavLink
                         onClick={toggleClass}
-                        activeClassName='is-active'
+                        activeclassname='is-active'
                         to={`/SupplementProducts`}>
                         {" "}
                         Supplements{" "}
@@ -111,7 +111,7 @@ export const NavBar = () => {
                     <li>
                       <NavLink
                         onClick={toggleClass}
-                        activeClassName='is-active'
+                        activeclassname='is-active'
                         to={`/CosmeticsProducts`}>
                         {" "}
                         Cosmetics{" "}
@@ -120,7 +120,7 @@ export const NavBar = () => {
                     <li>
                       <NavLink
                         onClick={toggleClass}
-                        activeClassName='is-active'
+                        activeclassname='is-active'
                         to={`/NutretionProducts`}>
                         {" "}
                         Nutrition{" "}
@@ -131,7 +131,7 @@ export const NavBar = () => {
                 <li className='menu-item '>
                   <NavLink
                     onClick={toggleClass}
-                    activeClassName='is-active'
+                    activeclassname='is-active'
                     to={"/contactus"}>
                     {" "}
                     Contact Us

@@ -1,5 +1,6 @@
 .site-blocks-cover {
   background-image: url('../../assets/image/home/hero_1.jpg');
+  
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -12,8 +13,34 @@
     .site-blocks-cover.inner-page, .site-blocks-cover.inner-page .row {
       min-height: 400px;
       height: 700px; }
- 
-    .site-blocks-cover h1 {
+ .our__mission{
+   background-color: #f6f6f6;
+ }
+ .our__slogan .row, .our__mission .row{
+   align-items: center;
+ }
+  .site-section-heading{
+   color: #B30000 ;
+   font-size: 2rem;
+   font-weight: bold;
+ }
+ .our__slogan span{
+  color: rgb(141, 32, 32) ;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+ /* .our__core__values{
+   background-image: url(../../assets/image/aboutUs/aboutBackground.jpeg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ } */
+ .imggggg{
+   border-radius:50%;
+   width: 70px;
+   height: 70px;
+ }
+    .site-blocks-cover h2 {
       font-size: 50px;
       font-weight: 900;
       color: #07a8ff;

@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
 import logoImg from "./logoPic.ico";
-// import logo from '../../img/logo.png';
-
 import "./NavBar.css";
+
 export const NavBar = () => {
   const [isMenu, setisMenu] = useState(false);
   const [isResponsiveclose, setResponsiveclose] = useState(false);

@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ToastContainer } from "react-toastify";
@@ -14,10 +15,22 @@ import { Footer } from "./shared/Footer/Footer";
 import NotFound from "./components/AboutUsPage/NotFound/NotFound";
 import "./App.css";
 import { PharmaceuticalsProducts } from "./components/PharmaceuticalsProducts/PharmaceuticalsProducts";
+import Loader from "./components/Loader/Loader";
 function App() {
+  const [isLoading, setIsLoading] = useState(false);
+  useEffect(() => {
+    function handlingLoading() {
+      setIsLoading(true);
+    }
+    window.addEventListener("load", handlingLoading);
+    return () => {
+      window.removeEventListener("load", handlingLoading);
+    };
+  }, [isLoading]);
+
   return (
     <BrowserRouter>
-      <NavBar />
+      {isLoading ? <NavBar /> : <Loader />}
       <ToastContainer />
       <Routes>
         <Route path='*' element={<NotFound />} />
@@ -29,9 +42,12 @@ function App() {
         <Route path='/NutretionProducts' element={<NutretionProducts />} />
         <Route path='/:category/:name/:id' element={<ProductDetails />} />
         <Route path='/NutretionProducts' element={<NutretionProducts />} />
-        <Route path="/PharmaceuticalsProducts" element={<PharmaceuticalsProducts/>}/>
+        <Route
+          path='/PharmaceuticalsProducts'
+          element={<PharmaceuticalsProducts />}
+        />
       </Routes>
-      <Footer />
+      {isLoading ? <Footer /> : <Loader />}
     </BrowserRouter>
   );
 }

@@ -16,8 +16,8 @@ const AboutUs = () => {
                 <p>
                   A2M Medical is a leading pharmaceutical company in the
                   Egyptian market, established in 2020. A2M Medical provides
-                  pharmaceuticals Drugs, babies nutrition formulas,
-                  nutraceuticals and cosmeceuticals that improve the life of the
+                  Pharmaceuticals Drugs, Babies Nutrition formulas,
+                  Nutraceuticals and Cosmeceuticals that improve the life of the
                   family and society, providing them with the best in terms of
                   quality and cost in Egypt and the globe.
                 </p>

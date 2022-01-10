@@ -1,12 +1,12 @@
-import { useNavigate, useLocation } from "react-router-dom";
+// import { useNavigate, useLocation } from "react-router-dom";
 
 export const PageCardCategory = ({ i }) => {
-  const navigate = useNavigate();
-  const { pathname } = useLocation();
+  // const navigate = useNavigate();
+  // const { pathname } = useLocation();
 
-  const handleRedirect = () => {
-    navigate(`${pathname}/${i.name}/${i.id}`);
-  };
+  // const handleRedirect = () => {
+  //   navigate(`${pathname}/${i.name}/${i.id}`);
+  // };
   return (
     <>
       <div className='col-6 col-md-3 p-3'>

@@ -11,7 +11,7 @@ export const PharmaceuticalsProducts = ()=>{
     },[phrmaData])
     return(
         <div className="Pharma__section">
-            <h2 className="text-center">pharmaceuticalsProducts</h2>
+            <h2 className="text-center">pharmaceuticals Drugs</h2>
             <div className="row justify-content-center">
                 {
                    

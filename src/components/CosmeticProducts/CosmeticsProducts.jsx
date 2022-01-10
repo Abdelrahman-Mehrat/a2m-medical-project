@@ -14,7 +14,7 @@ export const CosmeticsProducts = () => {
         <h2 className='text-center pt-4'>Cosmetics</h2>
         <div className=' row pt-5'>
           {conmeticsData?.map((i) => {
-            return <PageCardCategory i={i} />;
+            return <PageCardCategory i={i} key={i.id} />;
           })}
         </div>
       </div>

@@ -13,6 +13,7 @@ import ProductDetails from "./components/ProductDetails/ProductDetails";
 import { Footer } from "./shared/Footer/Footer";
 import NotFound from "./components/AboutUsPage/NotFound/NotFound";
 import "./App.css";
+import { PharmaceuticalsProducts } from "./components/PharmaceuticalsProducts/PharmaceuticalsProducts";
 function App() {
   return (
     <BrowserRouter>
@@ -28,6 +29,7 @@ function App() {
         <Route path='/NutretionProducts' element={<NutretionProducts />} />
         <Route path='/:category/:name/:id' element={<ProductDetails />} />
         <Route path='/NutretionProducts' element={<NutretionProducts />} />
+        <Route path="/PharmaceuticalsProducts" element={<PharmaceuticalsProducts/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

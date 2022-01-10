@@ -122,6 +122,16 @@ export const NavBar = () => {
                         Nutrition{" "}
                       </NavLink>{" "}
                     </li>
+                    <li>
+                      <NavLink
+                        onClick={toggleClass}
+                        activeclassname='is-active'
+                        to={`/PharmaceuticalsProducts`}>
+                        {" "}
+                        Pharmaceutical{" "}
+                      </NavLink>{" "}
+                    </li>
+                    
                   </ul>
                 </li>
                 <li className='menu-item '>

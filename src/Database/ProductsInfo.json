@@ -3,21 +3,25 @@
         {
             "id": 1,
             "name": "Talicta",
+            "slogan":"'Immunity booster'",
             "image": "./assets/image/supplement/talica-english.jpg"
         },
         {
             "id": 2,
             "name": "Lanoro",
+            "slogan":"'Blood builder'",
             "image": "./assets/image/supplement/lanoro-english.jpg"
         },
         {
             "id": 3,
             "name": "Umo",
+            "slogan":"'Better Bone Builder'",
             "image": "./assets/image/supplement/umo-english.jpg"
         },
         {
             "id": 4,
-            "name": "Chily",
+            "name": "Chilly",
+            "slogan":"'Tummy Calm'",
             "image": "./assets/image/supplement/chilly-english.jpg"
         },
         {
@@ -73,6 +77,20 @@
             "id": 2,
             "name": "nutri-baby-infant",
             "image": "./assets/image/nutretion/nutri-baby-infant.jpg"
+        }
+    ],
+    "pharma":[
+        {
+            "id":1,
+            "name":"Human Medicine"
+        },
+        {
+            "id":2,
+            "name":"Veterinary Drugs"
+        },
+        {
+            "id":3,
+            "name":"Herbal Drugs"
         }
     ]
 }

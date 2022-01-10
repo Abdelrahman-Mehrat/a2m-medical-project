@@ -28,6 +28,13 @@ const Category = () => {
       theLink: "NutretionProducts",
       img: `${milkImg}`,
     },
+    {
+      id: 4,
+      name: "pharmaceuticals Drugs",
+      // describe:"click here to go to Nutrition products",
+      theLink: "pharmaceuticalsProducts",
+      img: `${milkImg}`,
+    },
   ]);
 
   return (
@@ -38,7 +45,7 @@ const Category = () => {
           <div className='row'>
             {mainCard.map((singleCard) => {
               return (
-                <div key={singleCard.id} className=' col-sm-6 col-md-4 mx-auto'>
+                <div key={singleCard.id} className=' col-sm-6  col-md-4 col-lg-3 mx-auto'>
                   <div className='p-3 '>
                     <Link to={`${singleCard.theLink}`}>
                       <CardCategory

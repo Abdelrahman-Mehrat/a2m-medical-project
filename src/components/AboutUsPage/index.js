@@ -1,6 +1,6 @@
 const IMAGES = {
   achievment: require("../../assets/image/aboutUs/achievment.jpg"),
-  goals: require("../../assets/image/aboutUs/goals.jpg"),
+  commitment: require("../../assets/image/aboutUs/commitment.jpg"),
   growth: require("../../assets/image/aboutUs/growth.jpg"),
   honest: require("../../assets/image/aboutUs/honest.jpg"),
   innovation: require("../../assets/image/aboutUs/innovation.jpg"),

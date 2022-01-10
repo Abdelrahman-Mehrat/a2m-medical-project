@@ -1,10 +1,10 @@
 .nutrition__page {
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(249 243 243);
     min-height: 100vh;
 }
 
 .inbox {
-    background-color: #eee;
+    background-color: rgb(249 243 243);;
     margin-top:100px;
 }
 .inbox .inbox-menu ul {
@@ -12,11 +12,15 @@
     padding: 0;
     list-style: none
 }
+.inbox .inbox-menu ul .from {
+    font-size: 2rem;
+}
 .inbox h4 {
     margin: 20px 0 10px 20px;
 }
 .head-content{
     padding: 20px;
+    background-color: white;
 }
 .head-title{
     color: #07a8ff;

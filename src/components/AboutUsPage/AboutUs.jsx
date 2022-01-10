@@ -10,12 +10,12 @@ const AboutUs = () => {
       <div className='site-blocks-cover inner-page'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-7 mx-auto align-self-center'>
+            <div className='col-lg-7  align-self-center'>
               <div className=' text-center'>
                 <h2>About Us</h2>
                 <p>
                   A2M Medical is a leading pharmaceutical company in the
-                  Egyptian market, established in 2020. A2M Medical provides
+                  Egyptian market, established in 2020. <br /> A2M Medical provides
                   Pharmaceuticals Drugs, Babies Nutrition formulas,
                   Nutraceuticals and Cosmeceuticals that improve the life of the
                   family and society, providing them with the best in terms of
@@ -85,14 +85,14 @@ const AboutUs = () => {
       <div className='site-section  our__mission custom-border-bottom py-4'>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-4 slogan'>
+            <div className='col-md-5 slogan'>
               <div className='block-16'>
                 <figure className='mb-0'>
                   <img src={missionImg1} className='w-100' alt='' />
                 </figure>
               </div>
             </div>
-            <div className='col-md-8'>
+            <div className='col-md-7'>
               <div className='site-section-heading'>
                 <h3 className=''>Mission</h3>
               </div>
@@ -100,9 +100,12 @@ const AboutUs = () => {
                 We shall provide total customer satisfaction and achieve
                 leadership in chosen markets, products and services across the
                 globe, through excellence in technology, based on worldclass
-                research and development. We will discover, develop and
+                research and development. <br /> <br />
+                 We will discover, develop and
                 successfully market pharmaceutical products to prevent,
-                alleviate and cure disease We are responsible to the society. We
+                alleviate and cure disease. <br />
+                <br />
+                We are responsible to the society. We
                 shall be good corporate citizens and will be driven by high
                 ethical standards in our practices.
               </p>
@@ -129,7 +132,7 @@ const AboutUs = () => {
                       1-Integrity & Trust
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
                       Build open honest relationships Built upon unwavering
                       integrity, trust is the essence. We must uphold our
@@ -151,7 +154,7 @@ const AboutUs = () => {
                       2-Teamwork{" "}
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
                       Team means together everyone achieve more. At A2M Medical,
                       We believe teamwork is the key to delivering innovative
@@ -174,7 +177,7 @@ const AboutUs = () => {
                     </div>
                     <h3 className=' block-38-heading  h4'>3-Innovation</h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
                       Be creative, open-minded and thinking out of the box. We
                       believe true innovation is the combination of creativity,
@@ -196,7 +199,7 @@ const AboutUs = () => {
                       4-Passion for Excellence
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
                       When the best is not enough We are passionate about
                       delivering the best results every time and are determined
@@ -222,10 +225,11 @@ const AboutUs = () => {
                       5-Achievement
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
                       “greatest achievements are often directly related to
-                      greatest challenges”….. Kirsty Allen{" "}
+                      greatest challenges”…..
+                      <br /> Kirsty Allen{" "}
                     </p>
                   </div>
                 </div>
@@ -243,10 +247,10 @@ const AboutUs = () => {
                       6-Quality
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
-                      Our concern is Quality not Quantity We believe that " When
-                      quality is in our minds. The defect will stay behind
+                      Our concern is Quality not Quantity. <br /> We believe that " When
+                      quality is in our minds. The defect will stay behind. "  
                     </p>
                   </div>
                 </div>
@@ -264,7 +268,7 @@ const AboutUs = () => {
                       7-Fairness & honesty
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
                       Treating others with fairness and honesty is like
                       the«rain»that helps them to grow and be fruitful.
@@ -278,14 +282,14 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={IMAGES.goals} alt='' />
+                      <img className=' imggggg' src={IMAGES.commitment} alt='' />
                     </div>
 
                     <h3 className='block-38-heading text-center h4'>
                       8-Motivation & Commitment
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
                       We believe that “ Motivation is what gets you started.
                       Commitment is what keeps you going.”
@@ -305,9 +309,9 @@ const AboutUs = () => {
                       9-Personal Growth
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
-                      Keeping growth and learning We are driven in the pursuit
+                      Keeping growth and learning. <br /> We are driven in the pursuit
                       of personal growth and learning.
                     </p>
                   </div>
@@ -325,10 +329,10 @@ const AboutUs = () => {
                       10-Family & Loyalty
                     </h3>
                   </div>
-                  <div className='block-38-body'>
+                  <div className='block-38-body text-center'>
                     <p>
-                      A2M Medical is more than a Company,It's a Family. Loyalty
-                      “Always staying true to our ideals and people”
+                      A2M Medical is more than a Company,It's a Family. <br /> Loyalty
+                      “Always staying true to our ideals and people. ”
                     </p>
                   </div>
                 </div>

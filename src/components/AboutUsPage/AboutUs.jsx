@@ -176,7 +176,7 @@ const AboutUs = () => {
                     <div className='d-flex justify-content-center'>
                       <img
                         className=' imggggg'
-                        src={IMAGES.innovation}
+                        src={IMAGES.innovation2}
                         alt=''
                       />
                     </div>

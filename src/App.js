@@ -17,10 +17,10 @@ import "./App.css";
 import { PharmaceuticalsProducts } from "./components/PharmaceuticalsProducts/PharmaceuticalsProducts";
 import Loader from "./components/Loader/Loader";
 function App() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     function handlingLoading() {
-      setIsLoading(true);
+      setIsLoading(false);
     }
     window.addEventListener("load", handlingLoading);
     return () => {
@@ -29,26 +29,35 @@ function App() {
   }, [isLoading]);
 
   return (
-    <BrowserRouter>
-      {isLoading ? <NavBar /> : <Loader />}
-      <ToastContainer />
-      <Routes>
-        <Route path='*' element={<NotFound />} />
-        <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutUs />} />
-        <Route path='/contactus' element={<ContactUs />} />
-        <Route path='/SupplementProducts' element={<SupplementProducts />} />
-        <Route path='/CosmeticsProducts' element={<CosmeticsProducts />} />
-        <Route path='/NutretionProducts' element={<NutretionProducts />} />
-        <Route path='/:category/:name/:id' element={<ProductDetails />} />
-        <Route path='/NutretionProducts' element={<NutretionProducts />} />
-        <Route
-          path='/PharmaceuticalsProducts'
-          element={<PharmaceuticalsProducts />}
-        />
-      </Routes>
-      {isLoading ? <Footer /> : <Loader />}
-    </BrowserRouter>
+    <div>
+      {!isLoading ? (
+        <BrowserRouter>
+          <NavBar />
+          <ToastContainer />
+          <Routes>
+            <Route path='*' element={<NotFound />} />
+            <Route path='/' element={<HomePage />} />
+            <Route path='/about' element={<AboutUs />} />
+            <Route path='/contactus' element={<ContactUs />} />
+            <Route
+              path='/SupplementProducts'
+              element={<SupplementProducts />}
+            />
+            <Route path='/CosmeticsProducts' element={<CosmeticsProducts />} />
+            <Route path='/NutretionProducts' element={<NutretionProducts />} />
+            <Route path='/:category/:name/:id' element={<ProductDetails />} />
+            <Route path='/NutretionProducts' element={<NutretionProducts />} />
+            <Route
+              path='/PharmaceuticalsProducts'
+              element={<PharmaceuticalsProducts />}
+            />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      ) : (
+        <Loader />
+      )}
+    </div>
   );
 }
 

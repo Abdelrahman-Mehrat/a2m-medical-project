@@ -9,7 +9,6 @@
   transition: 0.7s;
 }
 
-
 .home__categoryCard:hover {
   transform: translateY(-12px);
 }
@@ -21,4 +20,12 @@
 }
 .title {
   color: #07a8ff;
+}
+
+.card-body {
+  display: flex;
+  min-height: 88px !important;
+}
+.card-body > div {
+  margin: auto;
 }

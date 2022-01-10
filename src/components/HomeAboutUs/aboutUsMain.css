@@ -1,6 +1,7 @@
-.Home__AboutUs{
-   background: #f8f9fa;
+.Home__AboutUs {
+  background: #f8f9fa;
+  overflow: hidden;
 }
-p.about-us{
-   font-size: 1.2rem;
+p.about-us {
+  font-size: 1.2rem;
 }

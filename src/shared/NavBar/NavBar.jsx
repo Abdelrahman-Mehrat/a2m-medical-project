@@ -38,12 +38,12 @@ export const NavBar = () => {
         <div className='row d-flex align-items-center'>
           {/* Add Logo  */}
           <div className='header__middle__logo'>
-            <NavLink   to='/'>
+            <NavLink to='/'>
               <img className='logoImg' src={`${logoImg}`} alt='' />
             </NavLink>
           </div>
 
-          <div className='header__middle__menus'>
+          <div className='header__middle__menus ms-auto'>
             <nav className='main-nav '>
               {/* Responsive Menu Button */}
               {isResponsiveclose === true ? (
@@ -52,8 +52,7 @@ export const NavBar = () => {
                     className='menubar__button'
                     style={{ display: "none" }}
                     onClick={toggleClass}>
-                    {" "}
-                    <FiXCircle />{" "}
+                    <FiXCircle />
                   </span>
                 </>
               ) : (
@@ -62,16 +61,14 @@ export const NavBar = () => {
                     className='menubar__button'
                     style={{ display: "none" }}
                     onClick={toggleClass}>
-                    {" "}
-                    <FiAlignRight />{" "}
+                    <FiAlignRight />
                   </span>
                 </>
               )}
-
               <ul className={boxClass.join(" ")}>
                 <li className='menu-item'>
                   <NavLink
-                    exact="true"
+                    exact='true'
                     activeclassname='is-active'
                     onClick={toggleClass}
                     to={`/`}>

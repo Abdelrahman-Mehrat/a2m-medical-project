@@ -86,7 +86,7 @@ function ContactUs() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className='contactus'>
+    <form ref={form} onSubmit={sendEmail} className='contactus py-5'>
       <div className='container'>
         <fieldset className='py-5'>
           <legend className='text-capitalize'>get in touch</legend>

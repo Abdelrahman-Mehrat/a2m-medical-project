@@ -75,6 +75,7 @@ emailjs-browser : npm install @emailjs/browser --save
 react-toastify: npm i react-toastify
 joi : npm i joi
 google-maps : npm install --save react-google-maps --legacy-peer-deps
+animate on scroll : npm install aos --save
 
 
 

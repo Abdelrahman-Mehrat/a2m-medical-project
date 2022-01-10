@@ -6,9 +6,10 @@ const IMAGES = {
   innovation: require("../../assets/image/aboutUs/innovation.jpg"),
   innovation2: require("../../assets/image/aboutUs/innovation2.jpg"),
   loyality: require("../../assets/image/aboutUs/loyality.jpg"),
-  ourMission: require("../../assets/image/aboutUs/ourMission.jpg"),
   passion: require("../../assets/image/aboutUs/passion.jpg"),
+  quality: require("../../assets/image/aboutUs/quality.jpg"),
   trust: require("../../assets/image/aboutUs/trust.jpg"),
+  teamWork: require("../../assets/image/aboutUs/teamWork.jpg"),
 };
 
 export default IMAGES;

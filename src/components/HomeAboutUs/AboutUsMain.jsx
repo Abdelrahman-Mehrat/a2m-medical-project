@@ -13,7 +13,7 @@ const AboutUsMain = () => {
               </p>
             </div>
           </div>
-          <div className=' col-md-4 p-4 text-center'>
+          <div className='col-md-4 p-4 text-center'>
             <img src={logoPic} className=' w-100' alt='' />
           </div>
         </div>

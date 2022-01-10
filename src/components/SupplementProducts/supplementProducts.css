@@ -14,8 +14,9 @@
     box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
 -webkit-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
 -moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
-background-color: rgb(209, 209, 209);
+background-color: rgb(243, 243, 243);
 transition: 1s;
+border-radius: 20px;
 color: black;
 font-size: 1.3rem;
 font-weight: bold;

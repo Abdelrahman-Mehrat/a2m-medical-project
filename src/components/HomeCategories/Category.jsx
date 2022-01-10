@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import supplementImg from "../../assets/image/home/supplementcat.jpg";
+import pharmaImg from "../../assets/image/home/pharmacat.jpg";
 import cosmeticsImg from "../../assets/image/home/cosmeticsCat.jpg";
 import milkImg from "../../assets/image/home/nutriCat.jpg";
 import { CardCategory } from "./CardCategory/CardCategory";
+
 import "./Category.css";
 const Category = () => {
   const [mainCard] = useState([
@@ -33,7 +35,7 @@ const Category = () => {
       name: "pharmaceuticals Drugs",
       // describe:"click here to go to Nutrition products",
       theLink: "pharmaceuticalsProducts",
-      img: `${milkImg}`,
+      img: `${pharmaImg}`,
     },
   ]);
 

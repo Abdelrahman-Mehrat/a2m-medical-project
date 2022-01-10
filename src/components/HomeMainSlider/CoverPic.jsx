@@ -2,6 +2,8 @@ import imgOne from "../../assets/image/home/cosmetics-cover.jpg";
 import imgTwo from "../../assets/image/home/1 english.jpg";
 import imgThree from "../../assets/image/home/3.jpg";
 import imgFour from "../../assets/image/home/2 english.jpg";
+import imgFive from "../../assets/image/home/nutriCover.jpg";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./CoverPic.css";
@@ -19,6 +21,10 @@ export const CoverPic = () => {
           <div>
             <img src={imgThree} alt='' />
           </div>
+          <div>
+            <img src={imgFive} alt='' />
+          </div>
+          
           <div>
             <img src={imgFour} alt='' />
           </div>

@@ -19,7 +19,7 @@ const AboutUs = () => {
                   pharmaceuticals Drugs, babies nutrition formulas,
                   nutraceuticals and cosmeceuticals that improve the life of the
                   family and society, providing them with the best in terms of
-                  quality and cost in Egypt and the globe.{" "}
+                  quality and cost in Egypt and the globe.
                 </p>
               </div>
             </div>
@@ -27,9 +27,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div
-        className='site-section  our__slogan bg-light custom-border-bottom py-5'
-        data-aos='fade'>
+      <div className='site-section  our__slogan bg-light custom-border-bottom py-5'>
         <div className='container'>
           <div className='row '>
             <div className='col-md-5 slogan'>
@@ -62,9 +60,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div
-        className='site-section  bg-white custom-border-bottom py-4'
-        data-aos='fade'>
+      <div className='site-section  bg-white custom-border-bottom py-4'>
         <div className='container'>
           <div className='row '>
             <div className='col-md-7 mr-auto '>
@@ -86,9 +82,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div
-        className='site-section  our__mission custom-border-bottom py-4'
-        data-aos='fade'>
+      <div className='site-section  our__mission custom-border-bottom py-4'>
         <div className='container'>
           <div className='row'>
             <div className='col-md-4 slogan'>
@@ -117,9 +111,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div
-        className='site-section bg-light custom-border-bottom py-5'
-        data-aos='fade'>
+      <div className='site-section bg-light custom-border-bottom py-5'>
         <div className='container'>
           <div className=' site-section-heading text-center pb-5'>
             <h2>The 10 CORE VALUES of A2M Medical</h2>

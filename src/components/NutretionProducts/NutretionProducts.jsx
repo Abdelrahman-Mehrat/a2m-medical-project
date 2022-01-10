@@ -3,7 +3,9 @@ import { useEffect, useState } from "react";
 import Data from "../../Database/ProductsInfo.json";
 import { PageCardCategory } from "../PageCardCategory/PageCardCategory";
 import nutriLogo from "./nutriLogo.jpg";
-import babySection1 from "./babySection1.jpg"
+import babySection1 from "./babySection1.jpg";
+import babySection2 from "./baby2.jpg";
+
 export const NutretionProducts = () => {
   const [nutretionData, setNutretionData] = useState([]);
   useEffect(() => {
@@ -32,7 +34,7 @@ export const NutretionProducts = () => {
                 <li class="unread">
                   <div class="header row">
                     <div className="col-md-4">
-                      <img className="w-100" src={babySection1} alt="" />
+                      <img className="w-100" src={babySection2} alt="" />
                     </div>
                     <div className="col-md-8">
                     

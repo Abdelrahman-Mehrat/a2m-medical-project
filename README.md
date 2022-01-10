@@ -70,13 +70,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Installed Packages
+
 3d-react-carousal : npm i 3d-react-carousal
 emailjs-browser : npm install @emailjs/browser --save
 react-toastify: npm i react-toastify
 joi : npm i joi
 google-maps : npm install --save react-google-maps --legacy-peer-deps
-animate on scroll : npm install aos --save
 
-
-
-
+<!-- animate on scroll : npm install aos --save -->

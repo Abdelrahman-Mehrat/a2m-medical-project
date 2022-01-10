@@ -4,6 +4,13 @@
 
 .site-footer ul li {
   margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.site-footer ul > li:hover {
+  transform: translateX(-10px);
+}
+.quick__liksList > li > i {
+  color: #51eaea;
 }
 
 .site-footer ul li a {

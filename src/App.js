@@ -1,21 +1,18 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { ToastContainer } from "react-toastify";
 import "../node_modules/react-toastify/dist/ReactToastify.css";
-
-import HomePage from "./components/HomeComponents/HomePage";
 import { NavBar } from "./shared/NavBar/NavBar";
+import HomePage from "./components/HomeComponents/HomePage";
 import AboutUs from "./components/AboutUsPage/AboutUs";
 import ContactUs from "./components/ContactUs/ContactUs";
-// import { CategoryOne } from './components/category1/CategoryOne';
 import { CosmeticsProducts } from "./components/CosmeticProducts/CosmeticsProducts";
-import { SingleCard } from "./components/category1/single/SignleCard";
 import { NutretionProducts } from "./components/NutretionProducts/NutretionProducts";
 import { SupplementProducts } from "./components/SupplementProducts/SupplementProducts";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import { Footer } from "./shared/Footer/Footer";
 import NotFound from "./components/AboutUsPage/NotFound/NotFound";
+import "./App.css";
 function App() {
   return (
     <BrowserRouter>

@@ -1,8 +1,8 @@
-import "./AboutUs.css";
 import slogan1Img from "../../assets/image/aboutUs/slogan-section.jpg";
 import missionImg1 from "../../assets/image/aboutUs/ourMission.jpg";
 import visionImg1 from "../../assets/image/aboutUs/Vision.png";
-import innovationImg1 from "../../assets/image/aboutUs/innovation2.jpg";
+import IMAGES from "./index";
+import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
@@ -124,13 +124,13 @@ const AboutUs = () => {
           <div className=' site-section-heading text-center pb-5'>
             <h2>The 10 CORE VALUES of A2M Medical</h2>
           </div>
-          <div className='row'>
+          <div className='row justify-content-center'>
             <div className='col-md-6  col-lg-4  mb-5'>
               <div className='block-38 '>
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.trust} alt='' />
                     </div>
 
                     <h3 className='block-38-heading text-center h4'>
@@ -153,7 +153,7 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.teamWork} alt='' />
                     </div>
                     <h3 className='block-38-heading text-center h4'>
                       2-Teamwork{" "}
@@ -174,7 +174,11 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img
+                        className=' imggggg'
+                        src={IMAGES.innovation}
+                        alt=''
+                      />
                     </div>
                     <h3 className=' block-38-heading  h4'>3-Innovation</h3>
                   </div>
@@ -193,7 +197,7 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.passion} alt='' />
                     </div>
 
                     <h3 className='block-38-heading text-center h4'>
@@ -215,7 +219,11 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img
+                        className=' imggggg'
+                        src={IMAGES.achievment}
+                        alt=''
+                      />
                     </div>
 
                     <h3 className='block-38-heading text-center h4'>
@@ -236,7 +244,7 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.quality} alt='' />
                     </div>
 
                     <h3 className='block-38-heading text-center h4'>
@@ -257,7 +265,7 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.honest} alt='' />
                     </div>
 
                     <h3 className='block-38-heading text-center h4'>
@@ -278,7 +286,7 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.goals} alt='' />
                     </div>
 
                     <h3 className='block-38-heading text-center h4'>
@@ -299,7 +307,7 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.growth} alt='' />
                     </div>
                     <h3 className='block-38-heading text-center h4'>
                       9-Personal Growth
@@ -319,7 +327,7 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={innovationImg1} alt='' />
+                      <img className=' imggggg' src={IMAGES.loyality} alt='' />
                     </div>
                     <h3 className='block-38-heading text-center h4'>
                       10-Family & Loyalty

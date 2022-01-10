@@ -1,28 +1,41 @@
-.mainImage{
+.fadeInLeftBig {
+  animation-name: fadeInLefttBig;
+  animation-duration: 2s;
+}
+.fadeInLeftBig:nth-of-type(2) {
+  animation-name: fadeInLefttBig;
+  animation-duration: 1.5s;
+}
+.fadeInLeftBig:nth-of-type(3) {
+  animation-name: fadeInLefttBig;
+  animation-duration: 1s;
 }
 
-.contactUs{
-    /* background: rgb(194,231,180);
-    background: linear-gradient(180deg, rgba(194,231,180,1) 0%, rgba(127,218,125,1) 47%, rgba(84,184,104,1) 100%);   margin-top: -35px; */
+@keyframes fadeInLefttBig {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-.contactUs__data{
-    color: white;
-    background-color: #07a8ff;
-    border-radius: 2rem 2rem 2rem 0px;
-    cursor: pointer;
 
+.contactUs__data {
+  color: white;
+  background-color: #07a8ff;
+  border-radius: 2rem 2rem 2rem 0px;
+  cursor: pointer;
 }
-.contactUs__data:hover i{
-transform: scale(1.2) rotate(20deg);
-
-} 
-.contactUs__data p{
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-transform: uppercase;
+.contactUs__data:hover i {
+  transform: scale(1.2) rotate(20deg);
 }
-.contactUs__data i{
-
-    transition: 1s;
-
+.contactUs__data p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contactUs__data i {
+  transition: 1s;
 }

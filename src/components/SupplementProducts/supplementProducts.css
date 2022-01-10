@@ -1,26 +1,32 @@
-.supplement__page{
-    background-color: #eee;
-    min-height: 100vh;
+.supplement__page {
+  background-color: #eee;
+  margin-top: 66px;
 }
-.supplement__page .container{
-    background-color: white;
-    min-height: 100vh;
-    margin-top: 100px;
-}
+
 .supplement__page .container h2 {
-    color: #07a8ff;
+  color: #07a8ff;
 }
-.CardWrapper{
-    box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
+.CardWrapper {
+  /* box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
 -webkit-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
--moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73);
-background-color: rgb(209, 209, 209);
-transition: 1s;
-color: black;
-font-size: 1.3rem;
-font-weight: bold;
+-moz-box-shadow: 7px 16px 13px 1px rgba(107,107,107,0.73); */
+  background-color: #e1e8ed;
+  /* background-color: rgb(209, 209, 209); */
+  transition: 1s;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
-.supplement__page .container .CardWrapper:hover{
-    background-color: #777777;
-    color: white;
+.CardWrapper:hover {
+  transform: translateY(-10px);
+}
+
+.supplement__page .container .CardWrapper:hover {
+  background-color: #088dcd;
+  /* background-color: #777777; */
+}
+.supplement__page .container .CardWrapper:hover p {
+  color: white !important;
 }

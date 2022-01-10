@@ -93,6 +93,10 @@ li {
   padding-top: 0px;
   position: absolute;
   top: 13px;
+  transition: all 0.5s ease-in-out;
+}
+.sub__menus__arrows:hover svg {
+  transform: rotate(180deg);
 }
 .sub__menus {
   position: absolute;
@@ -135,7 +139,7 @@ li {
   max-width: 207px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
   .header__middle__logo {
     width: 77%;
   }
@@ -169,6 +173,7 @@ li {
     display: block !important;
     position: absolute;
     left: 0;
+    top: 0;
     z-index: 10007;
     background-color: #d8f1ff;
     border-bottom: 3px solid #ff3d00;

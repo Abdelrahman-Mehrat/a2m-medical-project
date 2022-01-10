@@ -1,13 +1,14 @@
-import "./Category.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+// import AOS from "aos";
+import "aos/dist/aos.css";
 import supplementImg from "../../assets/image/home/supplementcat.jpg";
 import cosmeticsImg from "../../assets/image/home/cosmeticsCat.jpg";
 import milkImg from "../../assets/image/home/nutriCat.jpg";
-
 import { CardCategory } from "./CardCategory/CardCategory";
+import "./Category.css";
 const Category = () => {
-  const [mainCard, setMainCard] = useState([
+  const [mainCard] = useState([
     {
       id: 1,
       name: "supplement products",
@@ -39,7 +40,7 @@ const Category = () => {
           <div className='row'>
             {mainCard.map((singleCard) => {
               return (
-                <div className='col-sm-6 col-md-4'>
+                <div key={singleCard.id} className=' col-sm-6 col-md-4 mx-auto'>
                   <div className='p-3 '>
                     <Link to={`${singleCard.theLink}`}>
                       <CardCategory

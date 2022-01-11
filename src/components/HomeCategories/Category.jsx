@@ -23,7 +23,7 @@ const Category = () => {
     {
       id: 3,
       name: "Nutrition products",
-      theLink: "NutretionProducts",
+      theLink: "nutretionproducts",
       img: `${milkImg}`,
     },
     {

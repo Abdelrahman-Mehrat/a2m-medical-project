@@ -103,7 +103,7 @@ const NavBar = () => {
                       <NavLink
                         onClick={toggleClass}
                         activeclassname='is-active'
-                        to={`/NutretionProducts`}>
+                        to={`/nutretionproducts`}>
                         Nutrition
                       </NavLink>
                     </li>

@@ -14,20 +14,21 @@
         },
         {
             "id": 3,
+            "name": "Chilly",
+            "slogan": "'Tummy Calm'",
+            "image": "./assets/image/nutretion/card-04.jpg"
+        },
+        {
+            "id": 4,
             "name": "Umo",
             "slogan": "'Better Bone Builder'",
             "image": "./assets/image/supplement/umo-english.jpg"
         },
-        {
-            "id": 4,
-            "name": "Chilly",
-            "slogan": "'Tummy Calm'",
-            "image": "./assets/image/supplement/chilly-english.jpg"
-        },
+        
         {
             "id": 5,
             "name": "mernovital",
-            "slogan": "'Hi-potancy formula'",
+            "slogan": "'Nourish your health'",
             "image": "./assets/image/supplement/mernovital.jpg"
         }
     ],

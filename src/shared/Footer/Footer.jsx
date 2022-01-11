@@ -19,7 +19,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fas fa-chevron-circle-right pe-2'></i>
-                <Link to='NutretionProducts'>Nutrition</Link>
+                <Link to='nutretionproducts'>Nutrition</Link>
               </li>
               <li>
                 <i className='fas fa-chevron-circle-right pe-2'></i>

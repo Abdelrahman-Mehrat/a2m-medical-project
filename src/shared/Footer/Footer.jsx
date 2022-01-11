@@ -21,6 +21,10 @@ export const Footer = () => {
                 <i className='fas fa-chevron-circle-right pe-2'></i>
                 <Link to='NutretionProducts'>Nutrition</Link>
               </li>
+              <li>
+                <i className='fas fa-chevron-circle-right pe-2'></i>
+                <Link to='PharmaceuticalsProducts'>Pharmaceuticals</Link>
+              </li>
             </ul>
           </div>
           <div className='col-md-6 col-lg-4'>

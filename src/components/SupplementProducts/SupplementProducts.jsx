@@ -13,7 +13,7 @@ export const SupplementProducts = () => {
       {
         <section className='supplement__page py-5'>
           <div className='container'>
-            <h2 className='text-center mb-5'>Supplement Products</h2>
+            <h2 className='text-center mb-5'>Supplements Products</h2>
             <div className='row justify-content-center'>
               {supplementData?.map((i) => (
                 <PageCardCategory i={i} key={i.id} />

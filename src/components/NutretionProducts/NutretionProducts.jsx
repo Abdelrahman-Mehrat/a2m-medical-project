@@ -31,12 +31,13 @@ export const NutretionProducts = () => {
                 </div>
               </div>
               <ul className='messages-list'>
-                <div className='row justify-content-center'>
+                <div className='row justify-content-center py-3'>
                   {nutretionData?.map((i) => {
                     return <PageCardCategory i={i} key={i.id} />;
                   })}
                 </div>
-                <li className='unread'>
+            
+                <li className='unread py-3'>
                   <div className='header row'>
                     <div className='col-md-4'>
                       <img className='w-100' src={babySection2} alt='' />
@@ -49,22 +50,18 @@ export const NutretionProducts = () => {
                           <i className='fa fa-star-o'></i>
                           <i className='fa fa-star bg'></i>
                         </span>
-                        We represent European quality
+                        Why choose NutriBaby baby milk?
                       </div>
                       <div className='description'>
-                        The NutriBaby range is produced only in Poland, in the
-                        heart of the European Union. We use only EU-origin
-                        ingredients, purchased only at trusted sources. All the
-                        ingredients, including milk, are carefully tested at our
-                        laboratories before using them for production. Our
-                        production facilities and processes are supervised by
-                        the authorities and must always comply with strict EU
-                        norms and food safety and quality regulations.
+                      We've been feeding babies for generations, helping them to grow happily. We know how important it is to provide the right nutrition at every stage of your baby's development. For the first few months of life, your baby will get all their nutrition from milk only. <br /> <br />
+
+NutriBaby is a nutritionally complete, whey based infant formula containing key vitamins and minerals. It can be used for combination feeding or if baby is not being breastfeed.
+                     
                       </div>
                     </div>
                   </div>
                 </li>
-                <li className='unread'>
+                <li className='unread py-3'>
                   <div className='header'>
                     {/* <span className="from">02</span> */}
                     <span className='date'>
@@ -76,88 +73,32 @@ export const NutretionProducts = () => {
                       <i className='fa fa-star-o'></i>
                       <i className='fa fa-star bg'></i>
                     </span>
-                    Produced from fresh milk
+                    NutriBaby contains
                   </div>
-                  <div className='description'>
-                    Milk and whey, the core ingredients which we use, are always
-                    fresh. We blend them together in appropriate proportion, add
-                    other required ingredients and only then spray dry into the
-                    powder form. Afterwards we add only auxiliary ingredients,
-                    which are not suited for high-temperature processing.
-                  </div>
-                  <h4>The NutriBaby range</h4>
-                  <ul className='text-capitalize'>
-                    <li>
-                      has always all the nutritional quality and quantity
-                      maintained,
-                    </li>
-                    <li>
-                      contains easily digestible, not deteriorated proteins,
-                      which are highly bioavailable,
-                    </li>
-                    <li>
-                      has good solubility and great organoleptic qualities
-                      (taste, colour, smell),
-                    </li>
-                    <li>
-                      is homogeneus (the nutrients are uniformly distributed).
-                    </li>
-                  </ul>
+                 
+                  <ul className="nutriUL">
+                       <li> <b>essential fatty acids</b>  needed for normal growth and development of children,</li>
+                       <li><b>lactose</b> , the sole source of galactose, a key nutrient important for <b>optimal development of the nervous system</b>  and myelination,</li>
+                       <li> <b>calcium</b>  and <b>phosphorus</b>  needed for normal <b>growth and development of bones</b>  in children,</li>
+                       <li><b>iron</b>  contributing to normal  <b>cognitive development</b>  of children,</li>
+                       <li><b>3 protein sources</b>  – whey protein concentrate, demineralized whey powder and skimmed milk powder – scientifically balanced blend of essential amino acids supporting <b>growth and development</b> ,</li>
+                      <li><b>Vitamine D</b>  important for strong bones,teeth and supports <b>immune system</b> .</li>
+                     </ul>
                 </li>
 
-                <li className='unread row'>
-                  {/* <div className="header">
-                    <span className="from">03</span>
-                    <span className="date"><i className="fas fa-cannabis"></i></span>
-                  </div> */}
-
+                <li className='unread py-3 row'>
+                  
                   <div className='col-md-8'>
-                    <div className='title'>
-                      <span className='action'>
-                        <i className='fa fa-star-o'></i>
-                        <i className='fa fa-star bg'></i>
-                      </span>
-                      Our experience
-                    </div>
-                    <div className='description'>
-                      We have been supplying generations of children with our
-                      formulas. No one would like to give their most precious
-                      baby into the hands of an unexperienced stranger. When
-                      choosing NutriBaby range, parents can are assured that
-                      through our years-long experience and wide, global
-                      presence, we know exactly what new-borns need and we
-                      supply them exactly this. NutriBaby is always safe and
-                      nutritionally complete
-                    </div>
+                   
+                    <div className='description__Nutri'>
+                      Breastmilk is best for your baby during the first months of life. It contains everything your baby needs for a healthy development. Our nutritionists have therefore developed NutriBaby infant formula according to the latest research findings.
+                      </div>
                   </div>
                   <div className='col-md-4'>
                     <img src={babySection1} className='w-100' alt='' />
                   </div>
                 </li>
-                <li className='unread'>
-                  {/* <div className="header">
-                    <span className="from">04</span>
-                    <span className="date"><i className="fas fa-cannabis"></i></span>
-                  </div> */}
-                  <div className='title'>
-                    <span className='action'>
-                      <i className='fa fa-star-o'></i>
-                      <i className='fa fa-star bg'></i>
-                    </span>
-                    Our absolutely unique Online Quality Inspection™ tool
-                  </div>
-                  <div className='description'>
-                    Our absolutely unique{" "}
-                    <a href='https://qc.geo-poland.com/' className='tool'>
-                      Online Quality Inspection™ tool
-                    </a>{" "}
-                    brings added value to parents feeding their baby with the
-                    NutriBaby formula. They can easily verify the origin of the
-                    NutriBaby product (its genuineness) and the quality. We are
-                    proud of our products and have nothing to hide when it comes
-                    to their quality.
-                  </div>
-                </li>
+                
               </ul>
             </div>
           </div>

@@ -27,56 +27,67 @@
         {
             "id": 5,
             "name": "mernovital",
+            "slogan":"'Hi-potancy formula'",
             "image": "./assets/image/supplement/mernovital.jpg"
         }
     ],
     "cosmetics": [
         {
             "id": 1,
-            "name": "siliseen-gel",
+            "name": "siliseen-Gel",
+            "slogan":"'Antiscar Gel'",
             "image": "./assets/image/cosmetics/siliseen-gel-card.jpg"
         },
         {
             "id": 2,
-            "name": "vercoza-gel",
+            "name": "Vercoza-Gel",
+            "slogan":"'For Acne-prone skin'",
             "image": "./assets/image/cosmetics/vercoza-gel-card.jpg"
         },
         {
             "id": 3,
             "name": "evyone-rose",
+            "slogan":"'Feminine initimate washable Gel'",
             "image": "./assets/image/cosmetics/evyone-rose-card.jpg"
         },
         {
             "id": 4,
             "name": "evyone-lavander",
+            "slogan":"'Feminine initimate washable Gel'",
             "image": "./assets/image/cosmetics/evyone-lavander-card.jpg"
         },
         {
             "id": 5,
             "name": "evyone-strawberry",
+            "slogan":"'Feminine initimate washable Gel'",
+
             "image": "./assets/image/cosmetics/evyone-straw-card.jpg"
         },
         {
             "id": 6,
             "name": "evyone-vanilla",
+            "slogan":"'Feminine initimate washable Gel'",
+
             "image": "./assets/image/cosmetics/evyone-vanilla-card.jpg"
         },
         {
             "id": 7,
             "name": "winnyfit",
+            "slogan":"'Massage Gel'",
             "image": "./assets/image/cosmetics/winnyfit-card.jpg"
         }
     ],
     "nutretion": [
+        
         {
             "id": 1,
-            "name": "nutri-baby-follow",
-            "image": "./assets/image/nutretion/nutri-baby-follow.jpg"
+            "name": "Nutribaby 1",
+            "image": "./assets/image/nutretion/nutri-baby-infant.jpg"
         },
         {
             "id": 2,
-            "name": "nutri-baby-infant",
-            "image": "./assets/image/nutretion/nutri-baby-infant.jpg"
+            "name": "Nutribaby 2",
+            "image": "./assets/image/nutretion/nutri-baby-follow.jpg"
         }
     ],
     "pharma":[

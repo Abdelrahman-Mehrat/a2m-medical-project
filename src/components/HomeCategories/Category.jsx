@@ -11,14 +11,14 @@ const Category = () => {
   const [mainCard] = useState([
     {
       id: 1,
-      name: "supplement products",
+      name: "Supplements Products",
       // describe:"click here to go to supplement products",
       theLink: "SupplementProducts",
       img: `${supplementImg}`,
     },
     {
       id: 2,
-      name: "Cosmetic products",
+      name: "Cosmetics products",
       // describe:"click here to go to Cosmitics products",
       theLink: "CosmeticsProducts",
       img: `${cosmeticsImg}`,
@@ -32,7 +32,7 @@ const Category = () => {
     },
     {
       id: 4,
-      name: "pharmaceuticals Drugs",
+      name: "Pharmaceuticals Drugs",
       // describe:"click here to go to Nutrition products",
       theLink: "pharmaceuticalsProducts",
       img: `${pharmaImg}`,

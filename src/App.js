@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ToastContainer } from "react-toastify";
@@ -13,24 +12,14 @@ import { SupplementProducts } from "./components/SupplementProducts/SupplementPr
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import { Footer } from "./shared/Footer/Footer";
 import NotFound from "./components/AboutUsPage/NotFound/NotFound";
-import "./App.css";
 import { PharmaceuticalsProducts } from "./components/PharmaceuticalsProducts/PharmaceuticalsProducts";
-import Loader from "./components/Loader/Loader";
+import "./App.css";
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    function handlingLoading() {
-      setIsLoading(false);
-    }
-    window.addEventListener("load", handlingLoading);
-    return () => {
-      window.removeEventListener("load", handlingLoading);
-    };
-  }, [isLoading]);
+
 
   return (
     <div>
-      {!isLoading ? (
+    
         <BrowserRouter>
           <NavBar />
           <ToastContainer />
@@ -54,9 +43,8 @@ function App() {
           </Routes>
           <Footer />
         </BrowserRouter>
-      ) : (
-        <Loader />
-      )}
+    
+    
     </div>
   );
 }

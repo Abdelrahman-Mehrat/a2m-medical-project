@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import CardCategory from "./CardCategory/CardCategory";
-import supplementImg from "../../assets/image/home/supplementcat.jpg";
-import pharmaImg from "../../assets/image/home/pharmacat.jpg";
-import cosmeticsImg from "../../assets/image/home/cosmeticsCat.jpg";
-import milkImg from "../../assets/image/home/nutriCat.jpg";
+import supplementImg from "../../assets/image/home/supplementcat.jpeg";
+import pharmaImg from "../../assets/image/home/pharmacat.jpeg";
+import cosmeticsImg from "../../assets/image/home/cosmeticsCat.jpeg";
+import milkImg from "../../assets/image/home/nutriCat.jpeg";
 import "./Category.css";
 const Category = () => {
   const [mainCard] = useState([

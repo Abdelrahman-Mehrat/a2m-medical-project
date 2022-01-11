@@ -36,45 +36,45 @@
             "id": 1,
             "name": "siliseen-Gel",
             "slogan":"'Antiscar Gel'",
-            "image": "./assets/image/cosmetics/siliseen-gel-card.jpg"
+            "image": "./assets/image/cosmetics/siliseen-gel-card.jpeg"
         },
         {
             "id": 2,
             "name": "Vercoza-Gel",
             "slogan":"'For Acne-prone skin'",
-            "image": "./assets/image/cosmetics/vercoza-gel-card.jpg"
+            "image": "./assets/image/cosmetics/vercoza-gel-card.jpeg"
         },
         {
             "id": 3,
             "name": "evyone-rose",
             "slogan":"'Feminine initimate washable Gel'",
-            "image": "./assets/image/cosmetics/evyone-rose-card.jpg"
+            "image": "./assets/image/cosmetics/evyone-rose-card.jpeg"
         },
         {
             "id": 4,
             "name": "evyone-lavander",
             "slogan":"'Feminine initimate washable Gel'",
-            "image": "./assets/image/cosmetics/evyone-lavander-card.jpg"
+            "image": "./assets/image/cosmetics/evyone-lavander-card.jpeg"
         },
         {
             "id": 5,
             "name": "evyone-strawberry",
             "slogan":"'Feminine initimate washable Gel'",
 
-            "image": "./assets/image/cosmetics/evyone-straw-card.jpg"
+            "image": "./assets/image/cosmetics/evyone-straw-card.jpeg"
         },
         {
             "id": 6,
             "name": "evyone-vanilla",
             "slogan":"'Feminine initimate washable Gel'",
 
-            "image": "./assets/image/cosmetics/evyone-vanilla-card.jpg"
+            "image": "./assets/image/cosmetics/evyone-vanilla-card.jpeg"
         },
         {
             "id": 7,
             "name": "winnyfit",
             "slogan":"'Massage Gel'",
-            "image": "./assets/image/cosmetics/winnyfit-card.jpg"
+            "image": "./assets/image/cosmetics/winnyfit-card.jpeg"
         }
     ],
     "nutretion": [

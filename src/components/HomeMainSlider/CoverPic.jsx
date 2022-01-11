@@ -1,4 +1,4 @@
-import imgOne from "../../assets/image/home/cosmetics-cover.jpg";
+import imgOne from "../../assets/image/home/cosmetics-cover.jpeg";
 import imgTwo from "../../assets/image/home/1 english.jpg";
 import imgThree from "../../assets/image/home/3.jpg";
 import imgFour from "../../assets/image/home/2 english.jpg";

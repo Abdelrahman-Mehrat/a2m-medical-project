@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
+import PageCardCategory from "../PageCardCategory/PageCardCategory";
 import Data from "../../Database/ProductsInfo.json";
-import { PageCardCategory } from "../PageCardCategory/PageCardCategory";
-import "./cosmeticsProducts.css";
-export const CosmeticsProducts = () => {
+import "./CosmeticsProducts.css";
+const CosmeticsProducts = () => {
   const [conmeticsData, setConmeticsData] = useState([]);
   useEffect(() => {
     setConmeticsData(Data.cosmetics);
   }, [conmeticsData]);
-
   return (
     <section className='Cosmatics__Page'>
       <div className='container'>
@@ -21,3 +20,4 @@ export const CosmeticsProducts = () => {
     </section>
   );
 };
+export default CosmeticsProducts;

@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import Joi from "joi";
 import { toast } from "react-toastify";
 import "./ContactUs.css";
-
 function ContactUs() {
   const form = useRef();
   const [formValues, setFormValues] = useState({
@@ -58,7 +57,6 @@ function ContactUs() {
         },
       );
   };
-
   const handleValidate = () => {
     const errors = {};
     let res = schema.validate({ ...formValues }, { abortEarly: false });
@@ -72,11 +70,9 @@ function ContactUs() {
     setFormErrors({ ...errors });
     return errors;
   };
-
   const handleErrorMessage = (errorMessage) => {
     return errorMessage.slice(errorMessage.lastIndexOf('"') + 2);
   };
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormValues({
@@ -84,7 +80,6 @@ function ContactUs() {
       [name]: value,
     });
   };
-
   return (
     <form ref={form} onSubmit={sendEmail} className='contactus py-5'>
       <div className='container'>
@@ -233,5 +228,4 @@ function ContactUs() {
     </form>
   );
 }
-
 export default ContactUs;

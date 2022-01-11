@@ -1,44 +1,38 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import CardCategory from "./CardCategory/CardCategory";
 import supplementImg from "../../assets/image/home/supplementcat.jpg";
 import pharmaImg from "../../assets/image/home/pharmacat.jpg";
 import cosmeticsImg from "../../assets/image/home/cosmeticsCat.jpg";
 import milkImg from "../../assets/image/home/nutriCat.jpg";
-import { CardCategory } from "./CardCategory/CardCategory";
-
 import "./Category.css";
 const Category = () => {
   const [mainCard] = useState([
     {
       id: 1,
       name: "Supplements Products",
-      // describe:"click here to go to supplement products",
       theLink: "SupplementProducts",
-      img: `${supplementImg}`,
+      img: { supplementImg },
     },
     {
       id: 2,
       name: "Cosmetics products",
-      // describe:"click here to go to Cosmitics products",
       theLink: "CosmeticsProducts",
-      img: `${cosmeticsImg}`,
+      img: { cosmeticsImg },
     },
     {
       id: 3,
       name: "Nutrition products",
-      // describe:"click here to go to Nutrition products",
       theLink: "NutretionProducts",
-      img: `${milkImg}`,
+      img: { milkImg },
     },
     {
       id: 4,
       name: "Pharmaceuticals Drugs",
-      // describe:"click here to go to Nutrition products",
       theLink: "pharmaceuticalsProducts",
-      img: `${pharmaImg}`,
+      img: { pharmaImg },
     },
   ]);
-
   return (
     <div className='home__category head__animation py-4'>
       <div className='container'>

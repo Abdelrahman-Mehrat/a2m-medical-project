@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import MapImage from "../../assets/image/home/location.png";
 import "./Footer.css";
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className='site-footer'>
       <div className='container'>
@@ -65,3 +65,4 @@ export const Footer = () => {
     </footer>
   );
 };
+export default Footer;

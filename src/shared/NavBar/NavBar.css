@@ -77,7 +77,6 @@ li {
   text-decoration: none;
   margin-top: 33px;
 }
-
 .header__middle__menus span.text {
   position: absolute;
   right: 177px;
@@ -109,11 +108,6 @@ li {
   z-index: 1000;
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
-
-@media (max-width: 767px) {
-  /* .header__middle .active {color: #ff3d00!important;} */
-}
-
 @media (min-width: 992px) {
   .sub__menus__arrows:hover .sub__menus {
     display: block;
@@ -134,11 +128,9 @@ li {
 .header__middle__logo a {
   color: #07a8ff !important;
 }
-
 .header__middle__logo img {
   max-width: 207px;
 }
-
 @media (max-width: 991.98px) {
   .header__middle__logo {
     width: 77%;

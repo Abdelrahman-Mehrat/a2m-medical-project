@@ -1,27 +1,3 @@
-.fadeInLeftBig {
-  animation-name: fadeInLefttBig;
-  animation-duration: 2s;
-}
-.fadeInLeftBig:nth-of-type(2) {
-  animation-name: fadeInLefttBig;
-  animation-duration: 1.5s;
-}
-.fadeInLeftBig:nth-of-type(3) {
-  animation-name: fadeInLefttBig;
-  animation-duration: 1s;
-}
-
-@keyframes fadeInLefttBig {
-  0% {
-    opacity: 0;
-    transform: translateX(-2000px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
 .contactUs__data {
   color: white;
   background-color: #07a8ff;

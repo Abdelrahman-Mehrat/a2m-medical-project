@@ -1,9 +1,8 @@
+import IMAGES from "./index";
 import slogan1Img from "../../assets/image/aboutUs/slogan-section.jpg";
 import missionImg1 from "../../assets/image/aboutUs/ourMission.jpg";
 import visionImg1 from "../../assets/image/aboutUs/Vision.png";
-import IMAGES from "./index";
 import "./AboutUs.css";
-
 const AboutUs = () => {
   return (
     <>
@@ -15,8 +14,8 @@ const AboutUs = () => {
                 <h2>About Us</h2>
                 <p>
                   A2M Medical is a leading pharmaceutical company in the
-                  Egyptian market, established in 2020. <br /> A2M Medical provides
-                  Pharmaceuticals Drugs, Babies Nutrition formulas,
+                  Egyptian market, established in 2020. <br /> A2M Medical
+                  provides Pharmaceuticals Drugs, Babies Nutrition formulas,
                   Nutraceuticals and Cosmeceuticals that improve the life of the
                   family and society, providing them with the best in terms of
                   quality and cost in Egypt and the globe.
@@ -26,7 +25,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
       <div className='site-section  our__slogan bg-light custom-border-bottom py-5'>
         <div className='container'>
           <div className='row '>
@@ -59,7 +57,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
       <div className='site-section  bg-white custom-border-bottom py-4'>
         <div className='container'>
           <div className='row '>
@@ -101,19 +98,17 @@ const AboutUs = () => {
                 leadership in chosen markets, products and services across the
                 globe, through excellence in technology, based on worldclass
                 research and development. <br /> <br />
-                 We will discover, develop and
-                successfully market pharmaceutical products to prevent,
-                alleviate and cure disease. <br />
+                We will discover, develop and successfully market pharmaceutical
+                products to prevent, alleviate and cure disease. <br />
                 <br />
-                We are responsible to the society. We
-                shall be good corporate citizens and will be driven by high
-                ethical standards in our practices.
+                We are responsible to the society. We shall be good corporate
+                citizens and will be driven by high ethical standards in our
+                practices.
               </p>
             </div>
           </div>
         </div>
       </div>
-
       <div className='site-section bg-light custom-border-bottom py-5'>
         <div className='container'>
           <div className=' site-section-heading text-center pb-5'>
@@ -127,7 +122,6 @@ const AboutUs = () => {
                     <div className='d-flex justify-content-center'>
                       <img className=' imggggg' src={IMAGES.trust} alt='' />
                     </div>
-
                     <h3 className='block-38-heading text-center h4'>
                       1-Integrity & Trust
                     </h3>
@@ -194,7 +188,6 @@ const AboutUs = () => {
                     <div className='d-flex justify-content-center'>
                       <img className=' imggggg' src={IMAGES.passion} alt='' />
                     </div>
-
                     <h3 className='block-38-heading text-center h4'>
                       4-Passion for Excellence
                     </h3>
@@ -220,7 +213,6 @@ const AboutUs = () => {
                         alt=''
                       />
                     </div>
-
                     <h3 className='block-38-heading text-center h4'>
                       5-Achievement
                     </h3>
@@ -229,7 +221,7 @@ const AboutUs = () => {
                     <p>
                       “greatest achievements are often directly related to
                       greatest challenges”…..
-                      <br /> Kirsty Allen{" "}
+                      <br /> Kirsty Allen
                     </p>
                   </div>
                 </div>
@@ -242,15 +234,15 @@ const AboutUs = () => {
                     <div className='d-flex justify-content-center'>
                       <img className=' imggggg' src={IMAGES.quality} alt='' />
                     </div>
-
                     <h3 className='block-38-heading text-center h4'>
                       6-Quality
                     </h3>
                   </div>
                   <div className='block-38-body text-center'>
                     <p>
-                      Our concern is Quality not Quantity. <br /> We believe that " When
-                      quality is in our minds. The defect will stay behind. "  
+                      Our concern is Quality not Quantity. <br /> We believe
+                      that " When quality is in our minds. The defect will stay
+                      behind. "
                     </p>
                   </div>
                 </div>
@@ -263,7 +255,6 @@ const AboutUs = () => {
                     <div className='d-flex justify-content-center'>
                       <img className=' imggggg' src={IMAGES.honest} alt='' />
                     </div>
-
                     <h3 className='block-38-heading text-center h4'>
                       7-Fairness & honesty
                     </h3>
@@ -282,9 +273,12 @@ const AboutUs = () => {
                 <div className='block-38-img'>
                   <div className='block-38-header'>
                     <div className='d-flex justify-content-center'>
-                      <img className=' imggggg' src={IMAGES.commitment} alt='' />
+                      <img
+                        className=' imggggg'
+                        src={IMAGES.commitment}
+                        alt=''
+                      />
                     </div>
-
                     <h3 className='block-38-heading text-center h4'>
                       8-Motivation & Commitment
                     </h3>
@@ -311,8 +305,8 @@ const AboutUs = () => {
                   </div>
                   <div className='block-38-body text-center'>
                     <p>
-                      Keeping growth and learning. <br /> We are driven in the pursuit
-                      of personal growth and learning.
+                      Keeping growth and learning. <br /> We are driven in the
+                      pursuit of personal growth and learning.
                     </p>
                   </div>
                 </div>
@@ -331,8 +325,8 @@ const AboutUs = () => {
                   </div>
                   <div className='block-38-body text-center'>
                     <p>
-                      A2M Medical is more than a Company,It's a Family. <br /> Loyalty
-                      “Always staying true to our ideals and people. ”
+                      A2M Medical is more than a Company,It's a Family. <br />{" "}
+                      Loyalty “Always staying true to our ideals and people. ”
                     </p>
                   </div>
                 </div>

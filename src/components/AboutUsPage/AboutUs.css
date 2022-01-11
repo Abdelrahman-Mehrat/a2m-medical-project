@@ -1,6 +1,5 @@
 .site-blocks-cover {
   background-image: url("../../assets/image/home/hero_1.jpg");
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -25,7 +24,6 @@
   align-items: center;
 }
 .site-section p {
-  /* text-align: center; */
   font-weight: 500;
 }
 .site-section-heading {
@@ -38,12 +36,6 @@
   font-size: 1.3rem;
   font-weight: 500;
 }
-/* .our__core__values{
-   background-image: url(../../assets/image/aboutUs/aboutBackground.jpeg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- } */
 .imggggg {
   border-radius: 50%;
   width: 70px;
@@ -68,7 +60,6 @@
   font-weight: bold;
   text-shadow: 1px 4px 4px #dd4545a6;
 }
-
 .slogan {
   display: flex;
   justify-content: center;

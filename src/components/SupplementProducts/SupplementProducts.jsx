@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
+import PageCardCategory from "../PageCardCategory/PageCardCategory";
 import Data from "../../Database/ProductsInfo.json";
-import { PageCardCategory } from "../PageCardCategory/PageCardCategory";
 import "./supplementProducts.css";
-
-export const SupplementProducts = () => {
+const SupplementProducts = () => {
   const [supplementData, setSupplementData] = useState([]);
   useEffect(() => {
     setSupplementData(Data.supplement);
@@ -25,3 +24,4 @@ export const SupplementProducts = () => {
     </>
   );
 };
+export default SupplementProducts;

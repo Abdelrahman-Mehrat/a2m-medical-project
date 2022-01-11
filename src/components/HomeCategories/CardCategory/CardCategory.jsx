@@ -1,6 +1,6 @@
 import { Card } from "react-bootstrap";
 import "./CardCategory.css";
-export const CardCategory = (props) => {
+const CardCategory = (props) => {
   return (
     <Card className='home__categoryCard'>
       <Card.Img className='cardImg' variant='top' src={props.img} />
@@ -13,3 +13,4 @@ export const CardCategory = (props) => {
     </Card>
   );
 };
+export default CardCategory;

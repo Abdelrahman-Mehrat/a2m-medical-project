@@ -10,5 +10,4 @@ const IMAGES = {
   trust: require("../../assets/image/aboutUs/trust.jpg"),
   teamWork: require("../../assets/image/aboutUs/teamWork.jpg"),
 };
-
 export default IMAGES;

@@ -12,25 +12,25 @@ const Category = () => {
       id: 1,
       name: "Supplements Products",
       theLink: "SupplementProducts",
-      img: { supplementImg },
+      img: `${supplementImg}`,
     },
     {
       id: 2,
       name: "Cosmetics products",
       theLink: "CosmeticsProducts",
-      img: { cosmeticsImg },
+      img: `${cosmeticsImg}`,
     },
     {
       id: 3,
       name: "Nutrition products",
       theLink: "NutretionProducts",
-      img: { milkImg },
+      img: `${milkImg}`,
     },
     {
       id: 4,
       name: "Pharmaceuticals Drugs",
       theLink: "pharmaceuticalsProducts",
-      img: { pharmaImg },
+      img: `${pharmaImg}`,
     },
   ]);
   return (

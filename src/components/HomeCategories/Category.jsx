@@ -34,15 +34,18 @@ const Category = () => {
     },
   ]);
   return (
-    <div className='home__category head__animation py-4'>
-      <div className='container'>
-        <h2 className='pb-3 section__header'>Category</h2>
+    <div className="home__category head__animation py-4">
+      <div className="container">
+        <h2 className="pb-3 section__header">Category</h2>
         <div>
-          <div className='row'>
+          <div className="row">
             {mainCard.map((singleCard) => {
               return (
-                <div key={singleCard.id} className=' col-sm-6 col-lg-3 mx-auto'>
-                  <div className='p-3 '>
+                <div
+                  key={singleCard.id}
+                  className=" col-sm-6 col-md-4 col-lg-3 mx-auto"
+                >
+                  <div className="p-3 ">
                     <Link to={`${singleCard.theLink}`}>
                       <CardCategory
                         name={singleCard.name}

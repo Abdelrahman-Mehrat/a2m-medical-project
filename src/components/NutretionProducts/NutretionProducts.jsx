@@ -11,43 +11,43 @@ const NutretionProducts = () => {
     setNutretionData(Data.nutretion);
   }, [nutretionData]);
   return (
-    <div className='container'>
-      <div className='row  inbox'>
-        <div className='col-md-12 p-5'>
-          <div className='panel panel-default'>
-            <div className='panel-body'>
-              <div className='head-content align-items-center row'>
-                <div className='col-sm-3'>
-                  <img className='w-100' src={nutriLogo} alt='' />
+    <div className="container">
+      <div className="row  inbox">
+        <div className="col-md-12 p-5 nutri__container">
+          <div className="panel panel-default">
+            <div className="panel-body">
+              <div className="head-content align-items-center row">
+                <div className="col-sm-3">
+                  <img className="w-100" src={nutriLogo} alt="" />
                 </div>
-                <div className='col-sm-9'>
-                  <h3 className='head-title'>NutriBaby</h3>
+                <div className="col-sm-9">
+                  <h3 className="head-title category__header">NutriBaby</h3>
                   <q>
                     The NutriBaby range provides a complete balance of essential
                     nutrients for new-born babies and pre-school children.
                   </q>
                 </div>
               </div>
-              <ul className='messages-list'>
-                <div className='row justify-content-center py-3'>
+              <ul className="messages-list">
+                <div className="row justify-content-center py-3">
                   {nutretionData?.map((i) => {
                     return <PageCardCategory i={i} key={i.id} />;
                   })}
                 </div>
-                <li className='unread py-3'>
-                  <div className='header row'>
-                    <div className='col-md-4'>
-                      <img className='w-100' src={babySection2} alt='' />
+                <li className="unread py-3">
+                  <div className="header row">
+                    <div className="col-md-4">
+                      <img className="w-100" src={babySection2} alt="" />
                     </div>
-                    <div className='col-md-8'>
-                      <div className='title'>
-                        <span className='action'>
-                          <i className='fa fa-star-o'></i>
-                          <i className='fa fa-star bg'></i>
+                    <div className="col-md-8">
+                      <div className="title">
+                        <span className="action">
+                          <i className="fa fa-star-o"></i>
+                          <i className="fa fa-star bg"></i>
                         </span>
                         Why choose NutriBaby baby milk?
                       </div>
-                      <div className='description'>
+                      <div className="description">
                         We've been feeding babies for generations, helping them
                         to grow happily. We know how important it is to provide
                         the right nutrition at every stage of your baby's
@@ -62,20 +62,20 @@ const NutretionProducts = () => {
                     </div>
                   </div>
                 </li>
-                <li className='unread py-3'>
-                  <div className='header'>
-                    <span className='date'>
-                      <i className='fas fa-cannabis'></i>
+                <li className="unread py-3">
+                  <div className="header">
+                    <span className="date">
+                      <i className="fas fa-cannabis"></i>
                     </span>
                   </div>
-                  <div className='title'>
-                    <span className='action'>
-                      <i className='fa fa-star-o'></i>
-                      <i className='fa fa-star bg'></i>
+                  <div className="title">
+                    <span className="action">
+                      <i className="fa fa-star-o"></i>
+                      <i className="fa fa-star bg"></i>
                     </span>
                     NutriBaby contains
                   </div>
-                  <ul className='nutriUL'>
+                  <ul className="nutriUL">
                     <li>
                       {" "}
                       <b>essential fatty acids</b> needed for normal growth and
@@ -108,9 +108,9 @@ const NutretionProducts = () => {
                     </li>
                   </ul>
                 </li>
-                <li className='unread py-3 row'>
-                  <div className='col-md-8'>
-                    <div className='description__Nutri'>
+                <li className="unread py-3 row">
+                  <div className="col-md-8">
+                    <div className="description__Nutri">
                       Breastmilk is best for your baby during the first months
                       of life. It contains everything your baby needs for a
                       healthy development. Our nutritionists have therefore
@@ -118,8 +118,8 @@ const NutretionProducts = () => {
                       research findings.
                     </div>
                   </div>
-                  <div className='col-md-4'>
-                    <img src={babySection1} className='w-100' alt='' />
+                  <div className="col-md-4">
+                    <img src={babySection1} className="w-100" alt="" />
                   </div>
                 </li>
               </ul>

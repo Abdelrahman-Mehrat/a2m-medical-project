@@ -8,10 +8,10 @@ const CosmeticsProducts = () => {
     setConmeticsData(Data.cosmetics);
   }, [conmeticsData]);
   return (
-    <section className='Cosmatics__Page'>
-      <div className='container'>
-        <h2 className='text-center pt-4'>Cosmetics</h2>
-        <div className=' row pt-5'>
+    <section className="Cosmatics__Page">
+      <div className="container">
+        <h2 className="text-center pt-4 category__header">Cosmetics</h2>
+        <div className=" row pt-5">
           {conmeticsData?.map((i) => {
             return <PageCardCategory i={i} key={i.id} />;
           })}

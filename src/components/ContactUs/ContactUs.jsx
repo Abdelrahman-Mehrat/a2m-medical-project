@@ -38,7 +38,7 @@ function ContactUs() {
         "service_b8u8eqa",
         "template_ukaazmr",
         formValues,
-        "user_J8py4xLCtI4CP1ki7zaQp",
+        "user_J8py4xLCtI4CP1ki7zaQp"
       )
       .then(
         (result) => {
@@ -54,7 +54,7 @@ function ContactUs() {
         },
         (error) => {
           toast.error("The message was not sent successfully");
-        },
+        }
       );
   };
   const handleValidate = () => {
@@ -81,144 +81,151 @@ function ContactUs() {
     });
   };
   return (
-    <form ref={form} onSubmit={sendEmail} className='contactus py-5'>
-      <div className='container'>
-        <fieldset className='py-5'>
-          <legend className='text-capitalize'>get in touch</legend>
-          <div className='row justify-content-center'>
-            <div className='mb-3 col-4'>
+    <form ref={form} onSubmit={sendEmail} className="contactus py-5">
+      <div className="container">
+        <fieldset className="py-5">
+          <legend className="text-capitalize">get in touch</legend>
+          <div className="row justify-content-center">
+            <div className="mb-3 col-12  col-sm-8 col-md-4">
               <label
-                htmlFor='first__name'
-                className='form-label text-capitalize'>
+                htmlFor="first__name"
+                className="form-label text-capitalize"
+              >
                 first name
-                <span className='ms-1 text-danger'>*</span>
+                <span className="ms-1 text-danger">*</span>
               </label>
               <input
-                type='text'
-                name='user__firstName'
-                className='form-control'
-                id='first__name'
+                type="text"
+                name="user__firstName"
+                className="form-control"
+                id="first__name"
                 onChange={handleChange}
                 value={formValues.user__firstName}
               />
               {formErrors?.user__firstName && (
-                <div className='text-danger'>
-                  <span className='text-capitalize'>first name </span>
+                <div className="text-danger">
+                  <span className="text-capitalize">first name </span>
                   {handleErrorMessage(formErrors?.user__firstName)}
                 </div>
               )}
             </div>
-            <div className='mb-3 col-4'>
+            <div className="mb-3 col-12  col-sm-8 col-md-4">
               <label
-                htmlFor='last__name'
-                className='form-label text-capitalize'>
+                htmlFor="last__name"
+                className="form-label text-capitalize"
+              >
                 last name
-                <span className='ms-1 text-danger'>*</span>
+                <span className="ms-1 text-danger">*</span>
               </label>
               <input
-                type='text'
-                name='user__lastName'
-                className='form-control'
-                id='last__name'
+                type="text"
+                name="user__lastName"
+                className="form-control"
+                id="last__name"
                 onChange={handleChange}
                 value={formValues.user__lastName}
               />
               {formErrors?.user__lastName && (
-                <div className='text-danger'>
-                  <span className='text-capitalize'>last name </span>
+                <div className="text-danger">
+                  <span className="text-capitalize">last name </span>
                   {handleErrorMessage(formErrors?.user__lastName)}
                 </div>
               )}
             </div>
-            <div className='mb-3 col-8'>
+            <div className="mb-3 col-12 col-sm-8">
               <label
-                htmlFor='email__address'
-                className='form-label text-capitalize'>
+                htmlFor="email__address"
+                className="form-label text-capitalize"
+              >
                 email
-                <span className='ms-1 text-danger'>*</span>
+                <span className="ms-1 text-danger">*</span>
               </label>
               <input
-                type='email'
-                name='user__email'
-                className='form-control'
-                id='email__address'
+                type="email"
+                name="user__email"
+                className="form-control"
+                id="email__address"
                 onChange={handleChange}
                 value={formValues.user__email}
               />
               {formErrors?.user__email && (
-                <div className='text-danger'>
-                  <span className='text-capitalize'>email </span>
+                <div className="text-danger">
+                  <span className="text-capitalize">email </span>
                   {handleErrorMessage(formErrors?.user__email)}
                 </div>
               )}
             </div>
-            <div className='mb-3 col-8'>
+            <div className="mb-3 col-12 col-sm-8">
               <label
-                htmlFor='phone__number'
-                className='form-label text-capitalize'>
+                htmlFor="phone__number"
+                className="form-label text-capitalize"
+              >
                 phone number
-                <span className='ms-1 text-danger'>*</span>
+                <span className="ms-1 text-danger">*</span>
               </label>
               <input
-                type='text'
-                name='user__phoneNumber'
-                className='form-control'
-                id='phone__number'
+                type="text"
+                name="user__phoneNumber"
+                className="form-control"
+                id="phone__number"
                 onChange={handleChange}
                 value={formValues.user__phoneNumber}
               />
               {formErrors?.user__phoneNumber && (
-                <div className='text-danger'>
-                  <span className='text-capitalize'>phone number </span>
+                <div className="text-danger">
+                  <span className="text-capitalize">phone number </span>
                   {handleErrorMessage(formErrors?.user__phoneNumber)}
                 </div>
               )}
             </div>
-            <div className='mb-3 col-8'>
+            <div className="mb-3 col-12 col-sm-8">
               <label
-                htmlFor='message__subject'
-                className='form-label text-capitalize'>
+                htmlFor="message__subject"
+                className="form-label text-capitalize"
+              >
                 subject
-                <span className='ms-1 text-danger'>*</span>
+                <span className="ms-1 text-danger">*</span>
               </label>
               <input
-                type='text'
-                name='user__messageSubject'
-                className='form-control'
-                id='message__subject'
+                type="text"
+                name="user__messageSubject"
+                className="form-control"
+                id="message__subject"
                 onChange={handleChange}
                 value={formValues.user__messageSubject}
               />
               {formErrors?.user__messageSubject && (
-                <div className='text-danger'>
-                  <span className='text-capitalize'>subject </span>
+                <div className="text-danger">
+                  <span className="text-capitalize">subject </span>
                   {handleErrorMessage(formErrors?.user__messageSubject)}
                 </div>
               )}
             </div>
-            <div className='col-8 mb-3'>
+            <div className="col-12 col-sm-8 mb-3">
               <label
-                htmlFor='message__text'
-                className='form-label text-capitalize'>
+                htmlFor="message__text"
+                className="form-label text-capitalize"
+              >
                 message
-                <span className='ms-1 text-danger'>*</span>
+                <span className="ms-1 text-danger">*</span>
               </label>
               <textarea
-                className='form-control'
-                name='user__message'
-                id='message__text'
-                rows='5'
+                className="form-control"
+                name="user__message"
+                id="message__text"
+                rows="5"
                 onChange={handleChange}
-                value={formValues.user__message}></textarea>
+                value={formValues.user__message}
+              ></textarea>
               {formErrors?.user__message && (
-                <div className='text-danger'>
-                  <span className='text-capitalize'>message </span>
+                <div className="text-danger">
+                  <span className="text-capitalize">message </span>
                   {handleErrorMessage(formErrors?.user__message)}
                 </div>
               )}
             </div>
-            <div className=' text-center mt-3'>
-              <button type='submit' className='btn btn-primary text-uppercase'>
+            <div className=" text-center mt-3">
+              <button type="submit" className="btn btn-primary text-uppercase">
                 send message
               </button>
             </div>

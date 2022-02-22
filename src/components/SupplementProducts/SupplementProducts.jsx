@@ -10,10 +10,12 @@ const SupplementProducts = () => {
   return (
     <>
       {
-        <section className='supplement__page py-5'>
-          <div className='container'>
-            <h2 className='text-center mb-5'>Supplements Products</h2>
-            <div className='row justify-content-center'>
+        <section className="supplement__page py-5">
+          <div className="container">
+            <h2 className="text-center mb-5 category__header">
+              Supplements Products
+            </h2>
+            <div className="row justify-content-center">
               {supplementData?.map((i) => (
                 <PageCardCategory i={i} key={i.id} />
               ))}

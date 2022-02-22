@@ -8,9 +8,9 @@ const PharmaceuticalsProducts = () => {
     setPhrmaData(Data.pharma);
   }, [phrmaData]);
   return (
-    <div className='Pharma__section'>
-      <h2 className='text-center'>pharmaceuticals Drugs</h2>
-      <div className='row justify-content-center'>
+    <div className="Pharma__section">
+      <h2 className="text-center category__header">pharmaceuticals Drugs</h2>
+      <div className="row justify-content-center">
         {phrmaData.map((i) => {
           return <PageCardCategory i={i} key={i.id} />;
         })}

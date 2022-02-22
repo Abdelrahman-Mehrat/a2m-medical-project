@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap");
+/* general */
+.category__header {
+  font-size: 3rem;
+}
+.home__category .h5 {
+  font-size: 1.7rem;
+}
+.CardWrapper p {
+  font-size: 1.8rem !important;
+}
+.section__header {
+  font-weight: 700;
+}
+/*  */
+@media (max-width: 800px) {
+  .card-body {
+    padding: 1rem 0rem;
+  }
+  .home__category .h5 {
+    font-size: 1.5rem;
+  }
+  .CardWrapper p {
+    font-size: 1.5rem !important;
+  }
+  .CardWrapper .second__card__p {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  p {
+    font-size: 1.2rem !important;
+  }
+  /* home */
+  .home__category .h5 {
+    font-size: 1.5rem;
+  }
+  .contactUs {
+    padding: 1rem !important;
+  }
+  .contactUs .contactUs__data {
+    padding: 1rem 0rem !important;
+  }
+  .section__header {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .section__header::after {
+    margin: 1rem auto;
+  }
+  .site-footer .footer-heading {
+    font-size: 2rem;
+  }
+  /* about us page */
+  .site-blocks-cover h2 {
+    font-size: 2.5rem;
+  }
+  .site-section-heading h3 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  /* wrapper card */
+  .CardWrapper p {
+    min-height: 35px;
+    font-size: 1.5rem !important;
+  }
+
+  /* wrapper pages */
+  .category__header {
+    font-size: 2rem;
+  }
+  /*  */
+  .nutri__container {
+    padding: 10px 5px !important;
+  }
+}

@@ -14,6 +14,7 @@ import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Footer from "./shared/Footer/Footer";
 import NotFound from "./components/AboutUsPage/NotFound/NotFound";
 import "./App.css";
+import "./media.css";
 function App() {
   return (
     <div>
@@ -21,17 +22,17 @@ function App() {
         <NavBar />
         <ToastContainer />
         <Routes>
-          <Route path='*' element={<NotFound />} />
-          <Route path='/' element={<HomePage />} />
-          <Route path='/about' element={<AboutUs />} />
-          <Route path='/contactus' element={<ContactUs />} />
-          <Route path='/SupplementProducts' element={<SupplementProducts />} />
-          <Route path='/CosmeticsProducts' element={<CosmeticsProducts />} />
-          <Route path='/NutretionProducts' element={<NutretionProducts />} />
-          <Route path='/:category/:name/:id' element={<ProductDetails />} />
-          <Route path='/nutretionproducts' element={<NutretionProducts />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/SupplementProducts" element={<SupplementProducts />} />
+          <Route path="/CosmeticsProducts" element={<CosmeticsProducts />} />
+          <Route path="/NutretionProducts" element={<NutretionProducts />} />
+          <Route path="/:category/:name/:id" element={<ProductDetails />} />
+          <Route path="/nutretionproducts" element={<NutretionProducts />} />
           <Route
-            path='/PharmaceuticalsProducts'
+            path="/PharmaceuticalsProducts"
             element={<PharmaceuticalsProducts />}
           />
         </Routes>

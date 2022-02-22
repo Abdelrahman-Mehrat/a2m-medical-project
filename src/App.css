@@ -1,23 +1,25 @@
-.animated{
-    /* display: flex;
+.animated {
+  /* display: flex;
     justify-content: center; */
-    display: none;
+  display: none;
 }
 
-.head__animation:hover .section__header::after{
-    width: 20%;
-    
+.head__animation:hover .section__header::after {
+  width: 20%;
 }
 .section__header::after {
-    content: "";
+  content: "";
   display: block;
   width: 15%;
   margin: 1rem 0;
   height: 2px;
   background-color: #ff5800;
-  transition: width 0.5s
-  }
- 
-  h2.section__header{
-      color: #07a8ff;
-  }
+  transition: width 0.5s;
+}
+
+h2.section__header {
+  color: #07a8ff;
+}
+p {
+  font-size: 1.4rem !important;
+}

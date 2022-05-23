@@ -39,17 +39,22 @@ const Footer = () => {
                 </li>
                 <li className='phone'>
                   <i className='fas fa-phone-alt'></i>
-                  <Link to='tel://23923929210'>+20-01100810690</Link>
+                  {/* <Link to='tel://23923929210'>+20-01100810690</Link> */}
+                  <a href='tel:+20-01100810690'>+20-01100810690</a>
                 </li>
-                <li className='phone'>
+                {/* <li className='phone'>
                   <i className='fas fa-phone-alt'></i>
                   <Link to='tel://23923929210'>+20-01119998720</Link>
-                </li>
+                  <a href='tel:+20-01119998720'>+20-01119998720</a>
+                </li> */}
                 <li className='email'>
                   <i className='fas fa-envelope'></i>
-                  <Link to='mailto: a2mmedical20@outlook.com'>
+                  {/* <Link to='mailto: a2mmedical20@outlook.com'>
                     a2mmedical20@outlook.com
-                  </Link>
+                  </Link> */}
+                  <a href='mailto:a2mmedical20@outlook.com'>
+                    a2mmedical20@outlook.com
+                  </a>
                 </li>
               </ul>
             </div>

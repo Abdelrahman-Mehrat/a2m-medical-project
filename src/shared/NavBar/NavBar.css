@@ -25,8 +25,26 @@ ul.main-menu > li.menu-item:first-child {
 .menu-item {
   line-height: 23px;
 }
-li {
+.main-menu > li, li{
   list-style-type: none;
+  position: relative;
+  transition: all 450ms linear;
+}
+.main-menu > li::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: #07a8ff ;
+  transition: all 450ms linear;
+}
+.main-menu > li:hover{
+  transform: translateY(-4px);
+}
+.main-menu > li:hover::after{
+  width: 100%;
+  left: 0%;
 }
 .menu-item a,
 .header__middle__logo a {
@@ -107,6 +125,7 @@ li {
   padding: 2px 0 0 0;
   z-index: 1000;
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
+  top: 58px;
 }
 @media (min-width: 992px) {
   .sub__menus__arrows:hover .sub__menus {
